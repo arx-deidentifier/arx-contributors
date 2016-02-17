@@ -1,10 +1,8 @@
 #!/bin/bash
 git clone https://github.com/ejwa/gitinspector.git
 git clone https://github.com/arx-deidentifier/arx.git
-cd git-fame-rb
 gem build git_fame.gemspec
 gem install --local git_fame-1.2.2.gem
-cd ..
 
 git config --global merge.renameLimit 999999
 git config --global diff.renameLimit 999999
