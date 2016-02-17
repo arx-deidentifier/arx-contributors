@@ -38,5 +38,5 @@ The current statistics have been generated on 02/17/2016.
 |:---------------------------------|-----------:|----------------:|-------------:|-------------:|
 | (1) Fabian Prasser               |  127       |   3401          | 2834         |  67.27       |
 | (2) Florian Kohlmayer            |   27       |   1470          | 1199         |  28.79       |
-| (3) Igor Vujosevic               |    1       |     68          |    0         |   0.73       |
-| (4) Karol Babioch                |   14       |    184          |  113         |   3.20       |
+| (3) Karol Babioch                |   14       |    184          |  113         |   3.20       |
+| (4) Igor Vujosevic               |    1       |     68          |    0         |   0.73       |
