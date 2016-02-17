@@ -4,7 +4,7 @@ All statistics start from 2013-05-10, which means that the initial commits with 
 ARX was moved from Google Code to GitHub are omitted from the statistics.
 Moreover, the statistics only cover the development process since this point in time.
 
-The current statistics have been generated at 02/17/2016.
+The current statistics have been generated on 02/17/2016.
 
 [Statistics for ARX'S Privacy Engine](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-main.html)
 
