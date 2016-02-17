@@ -37,9 +37,6 @@ module GitFame
       puts "Total number of commits: #{number_with_delimiter(commits)}\n"
 
       fields = [:name, :loc, :commits, :files, :distribution]
-      if @since or @until
-        fields << :added << :deleted << :total
-      end
       fields << populate.instance_variable_get("@file_extensions").uniq.sort if @bytype
       table(authors, fields: fields.flatten)
     end
