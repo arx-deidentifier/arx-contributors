@@ -1,7 +1,6 @@
 #!/bin/bash
 git clone https://github.com/ejwa/gitinspector.git
 git clone https://github.com/arx-deidentifier/arx.git
-git clone https://github.com/f1yegor/git-fame-rb.git
 cd git-fame-rb
 gem build git_fame.gemspec
 gem install --local git_fame-1.2.2.gem
