@@ -156,10 +156,7 @@ module GitFame
           if type = Mimer.identify(File.join(@repository, file)) and not type.mime_type.match(/binary/)
             @file_extensions << file_extension # only count extensions that aren't binary!
             begin
-              blame_cmd = "git blame '#{file}' #{blame_opts} --line-porcelain "
-              if @until
-                blame_cmd += " --since=#{@until}" # blame since-flag has such meaning
-              end
+              blame_cmd = "git blame 1973aa5996106106a28e1ed9d5225897582d7b9f '#{file}' #{blame_opts} --line-porcelain "
               execute(blame_cmd).scan(/^author (.+)$/).each do |author|
                 fetch(author.first).raw_loc += 1
                 @file_authors[author.first][file] ||= 1
