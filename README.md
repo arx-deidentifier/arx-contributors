@@ -16,7 +16,7 @@ The current statistics have been generated at 02/17/2016.
 | (4) Igor Vujosevic              |       1    |          1      |         1    |         0.00 |
 | (5) Raffael Bild                |       1    |          9      |        28    |         0.03 |
 
-[Statistics for ARX GUI](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-gui.html)
+[Statistics for ARX's Graphical Tool](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-gui.html)
 
 | Author                           | Commits    | Insertions      | Deletions    | % of changes |
 |:---------------------------------|-----------:|----------------:|-------------:|-------------:|
@@ -25,14 +25,14 @@ The current statistics have been generated at 02/17/2016.
 | (3) Karol Babioch                |  146       |   6179          | 2405         |   5.42       |
 | (4) Shu                          |    1       |     14          |    4         |   0.01       |
 
-[Statistics for ARX Tests](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-test.html)
+[Statistics for ARX's Tests](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-test.html)
 
 | Author                           | Commits    | Insertions      | Deletions    | % of changes |
 |:---------------------------------|-----------:|----------------:|-------------:|-------------:|
 | (1) Florian Kohlmayer            |   68       |   7121          | 6341         |  61.33       |
 | (2) Fabian Prasser               |   90       |   5560          | 2928         |  38.67       |
 
-[Statistics for ARX Examples](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-example.html)
+[Statistics for ARX's Examples](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-example.html)
 
 | Author                           | Commits    | Insertions      | Deletions    | % of changes |
 |:---------------------------------|-----------:|----------------:|-------------:|-------------:|
