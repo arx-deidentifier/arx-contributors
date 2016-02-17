@@ -15,12 +15,12 @@ Karol Babioch                 1          100.0         93.1                0.00
 
 The following files were excluded from the statistics due to the specified
 exclusion patterns:
-doc/gui/org/deidentifier/arx/gui/view/def/class-use/IStatisticsView.html
 ...rg/deidentifier/arx/io/class-use/{CSVDataOutput.html => ImportColumnJDBC.html
+doc/gui/org/deidentifier/arx/gui/view/def/class-use/IStatisticsView.html
 doc/gui/org/deidentifier/arx/metric/v2/class-use/IO.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentMultiStack.java
 .../org/deidentifier/arx/gui/view/impl/common/datatable/DataTableFillLayout.html
-doc/gui/org/deidentifier/arx/DataDefinition.html
+doc/gui/org/deidentifier/arx/gui/view/def/class-use/IAttachable.html
 doc/gui/org/deidentifier/arx/gui/model/ModelLocalRecoding.LocalRecodingMode.html
 src/main/org/deidentifier/arx/framework/check/history/History.java
 ...ificationRisk.html => gui/org/deidentifier/arx/risk/RiskModelSampleRisks.html
@@ -32,7 +32,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/explore/ViewTiles.html
 .../arx/gui/model/class-use/{ModelDPresenceCriterion.html => ModelClipboard.html
 ...i/org/deidentifier/arx/gui/view/impl/common/class-use/DataTableGridLayer.html
 src/gui/org/deidentifier/arx/gui/view/impl/risk/ViewDistributionTable.java
-...{ViewStatisticsClassificationInput.java => ViewStatisticsRegressionInput.java
+src/gui/org/deidentifier/arx/gui/model/ModelKMapCriterion.java
 ...pl/define/class-use/{ViewCriteriaList.html => ViewTransformationSettings.html
 doc/gui/org/deidentifier/arx/class-use/ARXLattice.Access.html
 ...mpl/{menu/WizardHierarchyPageLabels.html => wizard/ImportWizardPageExcel.html
@@ -43,9 +43,9 @@ src/example/org/deidentifier/arx/examples/Example2b.java
 doc/gui/org/deidentifier/arx/gui/view/impl/class-use/MainToolTip.html
 src/gui/org/deidentifier/arx/gui/view/impl/define/LayoutDefinition.java
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/ExploreView.html
+src/main/org/deidentifier/arx/risk/hipaa/IPPattern.java
 ...org/deidentifier/arx/gui/view/{def/ILayout.java => impl/analyze/Analysis.java
 src/main/org/deidentifier/arx/risk/resources/firstnames.csv
-...er/arx/criteria/class-use/{DistinctLDiversity.html => DDisclosurePrivacy.html
 ...tml => dev/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/importdata/ModelJdbc.java
 src/main/org/deidentifier/arx/io/datasource/column/JdbcColumn.java
@@ -69,13 +69,14 @@ src/main/org/deidentifier/arx/masking/AbstractReplaceInstMasker.java
 ...identifier/arx/gui/view/impl/{menu/hierarchy => wizards}/HierarchyWizard.java
 ...ContextVisualization.html => common/ComponentStatusLabelProgressProvider.html
 doc/gui/org/deidentifier/arx/metric/InformationLossWithBound.html
-src/main/org/deidentifier/arx/risk/hipaa/IPPattern.java
+...er/arx/criteria/class-use/{DistinctLDiversity.html => DDisclosurePrivacy.html
 .../arx/gui/view/impl/common/datatable/class-use/DataTableArrayDataProvider.html
 ...enu/class-use/DialogFindReplace.html => risk/class-use/LayoutRisksBottom.html
 doc/gui/org/deidentifier/arx/risk/RiskModelSampleRisks.html
 doc/gui/org/deidentifier/arx/gui/worker/Worker.html
+...ntifier/arx/aggregates/class-use/AggregateFunction.GenericArithmeticMean.html
 doc/gui/org/deidentifier/arx/metric/v2/class-use/MetricMDNUNMEntropy.html
-doc/gui/org/deidentifier/arx/risk/EquivalenceClassModel.html
+src/main/org/deidentifier/arx/DataHandleOutput.java
 doc/gui/org/deidentifier/arx/metric/class-use/MetricWeighted.html
 ...identifier/arx/gui/view/impl/wizard/class-use/HierarchyWizardEditorGroup.html
 .../impl/{analyze => utility}/class-use/ViewStatisticsDistributionHistogram.html
@@ -103,7 +104,7 @@ src/main/org/deidentifier/arx/io/{importdata => }/DataSourceConfiguration.java
 src/main/org/deidentifier/arx/metric/v2/MetricSDDiscernability.java
 ...rg/deidentifier/arx/gui/view/impl/utility/class-use/ViewPropertiesOutput.html
 .../io/{datasource/ICanContainHeader.java => IImportConfigurationWithHeader.java
-...er/arx/gui/Update.html => dev/org/deidentifier/arx/common/WrappedInteger.html
+...e/{ViewRisksClassDistributionPlot.html => ViewRisksReIdentificationTable.html
 src/main/org/deidentifier/arx/ARXSolverConfiguration.java
 ...ntifier/arx/risk/RiskModelPopulationUniqueness.PopulationUniquenessModel.html
 ...gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardPageBuilder.java
@@ -124,7 +125,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/define/ViewMetric.java
 doc/gui/org/deidentifier/arx/risk/class-use/PitmanModel.html
 doc/gui/org/deidentifier/arx/gui/view/impl/analyze/package-frame.html
 src/gui/org/deidentifier/arx/gui/view/impl/risk/AnalysisContextRisk.java
-...class-use/ViewDataDefinition.html => common/class-use/DataTableDecorator.html
+src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentRiskSlider.java
 doc/gui/org/deidentifier/arx/gui/view/impl/analyze/LayoutStatistics.html
 ...identifier/arx/io/{ICanContainHeader.java => IDataSourceCanContainHeader.java
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/class-use/NodeFilter.html
@@ -148,7 +149,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/package-summary.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/importdata/XlsPage.java
 ...=> dev/org/deidentifier/arx/risk/resources/us/class-use/HIPAAConstantsUS.html
 ...pl/menu/hierarchy/{HierarchyEditor.java => HierarchyWizardGroupingEditor.java
-...ier/arx/aggregates/class-use/HierarchyBuilderGroupingBased.AbstractGroup.html
+src/main/org/deidentifier/arx/ARXConfiguration.java
 src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentHierarchyMenu.java
 ...ntifier/arx/gui/view/impl/wizard/class-use/HierarchyWizardEditorInterval.html
 ...dentifier/arx/gui/view/impl/{analyze => utility}/ViewProperties.Property.html
@@ -209,7 +210,7 @@ src/example/org/deidentifier/arx/examples/Example22.java
 doc/gui/org/deidentifier/arx/criteria/KMap.html
 ...impl/{menu/WizardHierarchyPageOrder.html => wizard/ImportWizardPageTable.html
 ...t.html => dev/org/deidentifier/arx/io/class-use/ImportConfigurationExcel.html
-...ntifier/arx/aggregates/class-use/AggregateFunction.GenericArithmeticMean.html
+doc/gui/org/deidentifier/arx/risk/class-use/DisclosureRisk.html
 ...l => gui/org/deidentifier/arx/risk/RiskModelSampleSummary.JournalistRisk.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewPopulationModel.html
 ...org/deidentifier/arx/metric/v2/class-use/ILMultiDimensionalGeometricMean.html
@@ -266,10 +267,10 @@ doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
 doc/gui/org/deidentifier/arx/gui/worker/io/class-use/Vocabulary.html
 ...x/gui/view/impl/define/{LayoutDefinition.html => LayoutAttributeSettings.html
 doc/gui/org/deidentifier/arx/gui/view/def/IComponent.html
-src/main/org/deidentifier/arx/metric/InformationLossWithBound.java
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/HierarchyWizard.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogComboSelection.java
 ...i/org/deidentifier/arx/metric/v2/class-use/MetricMDNUNMNormalizedEntropy.html
-...rg/deidentifier/arx/gui/view/impl/common/class-use/DataTableImagePainter.html
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/StringEditor.html
 ...pl/{wizard/HierarchyWizardEditorMenu.html => common/ClipboardHandlerTree.html
 src/main/org/deidentifier/arx/risk/ModelPitman.java
 ...w/impl/define/class-use/{ViewPopulationModel.html => ViewUtilityMeasures.html
@@ -277,12 +278,13 @@ src/example/org/deidentifier/arx/examples/Example40.java
 doc/gui/org/deidentifier/arx/io/package-frame.html
 ....html => api/org/deidentifier/arx/metric/v2/ILSingleDimensionalWithBound.html
 src/example/org/deidentifier/arx/examples/Example13.java
-.../view/impl/{common/ViewDataOutput.html => define/ViewCriterionTCloseness.html
+src/main/org/deidentifier/arx/framework/check/groupify/HashTableUtil.java
 doc/gui/org/deidentifier/arx/risk/RiskModelAttributes.html
 ...rg/deidentifier/arx/gui/view/impl/common/DataTableRowHeaderConfiguration.html
 ...gui/org/deidentifier/arx/gui/view/impl/common/table/CTStyleConfiguration.html
 ...org/deidentifier/arx/gui/view/impl/menu/{DialogAbout.html => DialogDebug.html
 ...er/arx/gui/view/impl/common/table/class-use/StyleConfigurationFillLayout.html
+...deidentifier/arx/class-use/DataGeneralizationScheme.GeneralizationDegree.html
 doc/gui/org/deidentifier/arx/gui/worker/io/XMLWriter.html
 doc/gui/org/deidentifier/arx/package-summary.html
 ...CTDataProvider.java => main/org/deidentifier/arx/risk/hipaa/EMailPattern.java
@@ -298,13 +300,14 @@ src/main/org/deidentifier/arx/ARXLatticeEstimator.java
 src/gui/org/deidentifier/arx/gui/resources/dates.properties
 src/gui/org/deidentifier/arx/gui/view/impl/menu/EditorCriterionKMap.java
 ...ntifier/arx/metric/v2/class-use/MetricMDNUNMNormalizedEntropyPrecomputed.html
+...nu/{EditorCriterionLDiversity.html => EditorCriterionDifferentialPrivacy.html
 ...r/arx/criteria/{RiskBasedThresholdSampleUniques.java => SampleUniqueness.java
 .../metric/v2/class-use/MetricMDNUNMNormalizedEntropyPotentiallyPrecomputed.html
 ...r/arx/io/importdata/{CSVFileImportAdapter.java => ExcelFileImportAdapter.java
 ...rg/deidentifier/arx/gui/view/impl/common/datatable/DataTableDataProvider.html
 ...g/deidentifier/arx/gui/view/impl/menu/class-use/EditorCriterionDPresence.html
 doc/gui/org/deidentifier/arx/gui/view/impl/class-use/Splash.html
-doc/gui/org/deidentifier/arx/aggregates/AggregateFunction.GenericConstant.html
+doc/gui/org/deidentifier/arx/metric/v2/DomainShareInterval.html
 ...rchyWizardGroupingRenderer.java => wizards/HierarchyWizardEditorRenderer.java
 ...i/org/deidentifier/arx/gui/view/impl/{analyze => utility}/ViewProperties.html
 ...gui/org/deidentifier/arx/{gui/view => risk/resources/us}/package-summary.html
@@ -318,7 +321,7 @@ doc/gui/org/deidentifier/arx/gui/view/def/IEditor.html
 src/main/org/deidentifier/arx/metric/MetricAECS.java
 src/gui/org/deidentifier/arx/gui/view/def/{IPropertyEditor.java => IEditor.java
 ...html => api/org/deidentifier/arx/metric/v2/class-use/MetricMDNMPrecision.html
-...arx/gui/view/impl/define/criteria/{LDiversityView.java => ViewLDiversity.java
+doc/gui/org/deidentifier/arx/criteria/package-frame.html
 ...html => dev/org/deidentifier/arx/risk/RiskModelSampleBasedUniquenessRisk.html
 ...l/define/class-use/{ViewCriteriaList.html => ViewAttributeTransformation.html
 ...nalysisContextVisualizationDistribution.java => risk/AnalysisContextRisk.java
@@ -334,7 +337,7 @@ src/gui/org/deidentifier/arx/gui/view/def/{IPropertyEditor.java => IEditor.java
 src/main/org/deidentifier/arx/criteria/ImplicitPrivacyCriterion.java
 ...Share.html => dev/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
 ...tion.java => main/org/deidentifier/arx/aggregates/classifiers/Classifier.java
-...ntifier/arx/io/datasource/{DataSourceConfiguration.java => Configuration.java
+doc/gui/org/deidentifier/arx/gui/view/def/IDataTable.html
 src/example/org/deidentifier/arx/examples/Example2d.java
 ...ia/PrivacyCriterion.html => dev/org/deidentifier/arx/risk/HIPAAConstants.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/DataTable.java
@@ -347,7 +350,7 @@ doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
 ...use/ComponentTitledBorder.html => wizard/class-use/ImportWizardPageTable.html
 src/example/org/deidentifier/arx/examples/{Example19.java => Example35.java
 doc/gui/org/deidentifier/arx/{gui/Update.html => common/WrappedInteger.html
-...ui/org/deidentifier/arx/io/{CSVAbstractInput.html => ImportConfiguration.html
+doc/gui/org/deidentifier/arx/gui/view/def/class-use/IMainWindow.html
 src/example/org/deidentifier/arx/examples/Example15.java
 ...gui/view/impl/define/{ViewCodingModel.html => ViewTransformationSettings.html
 doc/api/org/deidentifier/arx/metric/v2/class-use/{DomainShare.html => IO.html
@@ -445,7 +448,7 @@ doc/gui/org/deidentifier/arx/metric/v2/MetricMDNUNMNormalizedEntropy.html
 src/main/org/deidentifier/arx/masking/ReplaceDictMasker.java
 doc/gui/org/deidentifier/arx/exceptions/package-frame.html
 .../view/impl/{analyze/ViewProperties.Property.html => menu/EditorCriterion.html
-.../gui/view/impl/common/{datatable => }/DataTableColumnHeaderConfiguration.html
+src/gui/org/deidentifier/arx/gui/worker/io/FileBuilder.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/async/package-use.html
 ...l => dev/org/deidentifier/arx/io/ImportConfigurationExcel.ExcelFileTypes.html
 ...-use/{ComponentTitledFolderButton.html => ComponentTitledFolderButtonBar.html
@@ -472,7 +475,7 @@ doc/gui/org/deidentifier/arx/io/ImportConfigurationFile.html
 doc/dev/org/deidentifier/arx/metric/v2/MetricSDNMAmbiguity.html
 ...nessRisk.html => gui/org/deidentifier/arx/risk/RiskModelSampleUniqueness.html
 ...rg/deidentifier/arx/metric/{MetricDefaultWeighted.java => MetricWeighted.java
-...gui/view/impl/common/datatable/class-use/DataTableConfigLabelAccumulator.html
+...dentifier/arx/gui/view/impl/class-use/{MainPopUp.html => MainContextMenu.html
 doc/dev/org/deidentifier/arx/metric/v2/DomainShareRedaction.html
 doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
 ...i/org/deidentifier/arx/metric/v2/MetricMDNUEntropyPotentiallyPrecomputed.html
@@ -491,7 +494,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/menu/EditorCriterionTCloseness.html
 src/main/org/deidentifier/arx/framework/lattice/LatticeBuilder.java
 doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
 doc/gui/org/deidentifier/arx/AttributeType.html
-...ui/org/deidentifier/arx/gui/view/impl/analyze/class-use/DistributionView.html
+src/gui/org/deidentifier/arx/gui/view/impl/importwizard/WizardImportData.java
 src/example/org/deidentifier/arx/examples/{Example13.java => Example14.java
 ...g/deidentifier/arx/gui/view/impl/menu/class-use/WizardHierarchyPageOrder.html
 doc/gui/org/deidentifier/arx/metric/v2/TupleMatcher.html
@@ -509,7 +512,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/explore/LatticeView.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/TitledBorder.java
 ...w/impl/menu/class-use/{EditorSelection.html => EditorCriterionLDiversity.html
 ...tifier/arx/metric/v2/class-use/MetricMDNUNMEntropyPotentiallyPrecomputed.html
-...ifier/arx/gui/view/impl/{wizards => wizard}/HierarchyWizardModelAbstract.java
+...rg/deidentifier/arx/gui/view/impl/common/class-use/DataTableImagePainter.html
 src/main/org/deidentifier/arx/metric/package-info.java
 doc/gui/org/deidentifier/arx/metric/v2/class-use/Cardinalities.html
 src/main/org/deidentifier/arx/risk/HIPAAConstants.java
@@ -517,12 +520,11 @@ src/main/org/deidentifier/arx/risk/HIPAAConstants.java
 doc/gui/org/deidentifier/arx/criteria/ExplicitPrivacyCriterion.html
 .../deidentifier/arx/gui/view/impl/risk/class-use/ViewRisksQuasiIdentifiers.html
 doc/gui/org/deidentifier/arx/common/WrappedBoolean.html
-src/main/org/deidentifier/arx/masking/AbstractDictionaryMasker.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/DataTable.ImagePainter.html
 src/main/org/deidentifier/arx/risk/NewtonSNB.java
 src/gui/org/deidentifier/arx/gui/view/impl/menu/EditorCriterionKAnonymity.java
 ...entifier/arx/aggregates/class-use/AggregateFunction.GenericGeometricMean.html
-src/example/org/deidentifier/arx/examples/{Example14.java => Example40.java
+src/main/org/deidentifier/arx/framework/check/history/MRUCacheEntryMetadata.java
 ...arx/gui/view/impl/analyze/class-use/{ViewDensity.html => HeatmapRenderer.html
 ...g/deidentifier/arx/gui/view/impl/utility/ViewStatisticsDistributionTable.html
 ...gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardEditorRange.html
@@ -580,8 +582,7 @@ src/main/org/deidentifier/arx/metric/v2/TupleMatcher.java
 src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmBinary.java
 .../deidentifier/arx/gui/view/impl/common/datatable/DataTableSelectionLayer.html
 ...nalyze/class-use/{LayoutAnalyze.html => ViewStatisticsContingencyHeatmap.html
-src/gui/org/deidentifier/arx/gui/view/impl/common/table/CTLayerCommandReset.java
-...efine/class-use/{ViewCriterionDefinition.html => ViewCriterionLDiversity.html
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/AboutDialog.html
 ...ier/arx/gui/view/impl/explore/{NodePropertiesView.java => ViewProperties.java
 src/example/org/deidentifier/arx/examples/Example2a.java
 ....java => gui/org/deidentifier/arx/gui/view/impl/common/table/CTComponent.java
@@ -595,7 +596,7 @@ src/main/org/deidentifier/arx/risk/resources/readme.txt
 src/main/org/deidentifier/arx/masking/AbstractInstanceMaskingDate.java
 doc/gui/org/deidentifier/arx/gui/model/class-use/ModelRisk.html
 doc/gui/org/deidentifier/arx/gui/view/impl/MainMenuSeparator.html
-...deidentifier/arx/risk/{hipaa/MatcherConfig.java => HIPAAIdentifierConfig.java
+...i/org/deidentifier/arx/AttributeType.MicroAggregationFunctionDescription.html
 ...rx/risk/RiskModelSampleBased.html => gui/org/deidentifier/arx/gui/Update.html
 src/main/org/deidentifier/arx/algorithm/FLASHPhaseConfiguration.java
 ...WTUtil.html => api/org/deidentifier/arx/metric/v2/class-use/MetricSDAECS.html
@@ -603,7 +604,7 @@ src/main/org/deidentifier/arx/algorithm/FLASHPhaseConfiguration.java
 ...impl/{analyze/class-use/Analysis.html => define/class-use/LayoutCriteria.html
 src/main/org/deidentifier/arx/exceptions/ComputationInterruptedException.java
 ...entifier/arx/metric/class-use/{MetricNMEntropy.html => MetricNMPrecision.html
-doc/gui/org/deidentifier/arx/gui/view/def/class-use/IAttachable.html
+doc/gui/org/deidentifier/arx/DataDefinition.html
 src/main/org/deidentifier/arx/algorithm/MinMaxPriorityQueue.java
 .../org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardEditorFunction.html
 ...ntifier/arx/criteria/{KAnonymity.html => RiskBasedThresholdSampleUniques.html
@@ -617,8 +618,9 @@ doc/gui/org/deidentifier/arx/gui/Model.html
 src/main/org/deidentifier/arx/algorithm/THUNDERAlgorithm.java
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/class-use/ViewLattice.html
 .../deidentifier/arx/gui/view/impl/menu/class-use/WizardHierarchyPageFanout.html
-src/main/org/deidentifier/arx/DataHandleOutput.java
+...class-use/ViewDataDefinition.html => common/class-use/DataTableDecorator.html
 ...i/org/deidentifier/arx/gui/view/impl/{wizards => wizard}/ARXWizardDialog.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorSearchAndReplace.java
 src/gui/org/deidentifier/arx/gui/view/impl/risk/ViewPopulationModel.java
 ...=> dev/org/deidentifier/arx/risk/RiskModelAttributes.QuasiIdentifierRisk.html
 src/main/org/deidentifier/arx/criteria/RiskBasedThresholdSampleUniques.java
@@ -630,7 +632,7 @@ src/gui/org/deidentifier/arx/gui/view/def/IComponent.java
 ...gui/org/deidentifier/arx/aggregates/HierarchyBuilderRedactionBased.Order.html
 .../deidentifier/arx/gui/worker/{WorkerLoadXMLHandler.java => io/XMLHandler.java
 ...ui/org/deidentifier/arx/gui/view/impl/wizards/HierarchyWizardEditorRange.java
-src/main/org/deidentifier/arx/ARXConfiguration.java
+...ier/arx/aggregates/class-use/HierarchyBuilderGroupingBased.AbstractGroup.html
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/package-tree.html
 src/gui/org/deidentifier/arx/gui/view/impl/explore/NodeFilterView.java
 ...eidentifier/arx/metric/v2/class-use/MetricMDNMLossPotentiallyPrecomputed.html
@@ -704,6 +706,7 @@ src/example/org/deidentifier/arx/examples/{Example6.java => Example19.java
 ...ier/arx/gui/view/impl/common/table/class-use/StyleConfigurationSelection.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/SelectionEditor.java
 doc/gui/org/deidentifier/arx/gui/view/def/class-use/IComponent.html
+...dentifier/arx/{ARXListener.html => DataHandleStatistics.InterruptHandler.html
 doc/gui/org/deidentifier/arx/metric/class-use/MetricStatic.html
 ...mon/class-use/{ComponentTitledBorder.html => DataTableHandleDataProvider.html
 ...r/arx/criteria/{SampleBasedPrivacyCriterion.html => SampleBasedCriterion.html
@@ -715,7 +718,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/common/ClipboardHandlerTable.html
 ...tric/InformationLoss.html => aggregates/StatisticsContingencyTable.Entry.html
 src/main/org/deidentifier/arx/criteria/package-info.java
 .../deidentifier/arx/aggregates/class-use/AggregateFunction.GenericConstant.html
-...i/view/impl/wizard/importdata/{WizardImportColumnPage.java => ColumnPage.java
+doc/gui/org/deidentifier/arx/metric/Metric.html
 doc/gui/org/deidentifier/arx/criteria/PopulationUniqueness.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/TitledFolder.java
 ...{InformationLossDefaultWithBound.java => v2/ILSingleDimensionalWithBound.java
@@ -739,7 +742,6 @@ doc/dev/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.html
 doc/gui/org/deidentifier/arx/metric/v2/MetricSDAECS.html
 src/main/org/deidentifier/arx/io/CSVDataOutput.java
 doc/gui/org/deidentifier/arx/gui/model/ModelKMapCriterion.html
-src/gui/org/deidentifier/arx/gui/model/ModelKMapCriterion.java
 ...rg/deidentifier/arx/gui/view/impl/common/async/class-use/AnalysisContext.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/criteria/package-frame.html
 ...ew/def/IDialog.java => main/org/deidentifier/arx/risk/hipaa/ValuePattern.java
@@ -773,6 +775,7 @@ src/example/org/deidentifier/arx/examples/Example20.java
 doc/gui/org/deidentifier/arx/risk/class-use/RiskModelHistogram.html
 ...rg/deidentifier/arx/aggregates/class-use/AggregateFunction.GenericBounds.html
 ...ava => main/org/deidentifier/arx/risk/RiskModelSampleBasedUniquenessRisk.java
+...arx/gui/view/impl/{utility => common/async}/AnalysisContextVisualization.java
 doc/gui/org/deidentifier/arx/gui/view/package-summary.html
 ...org/deidentifier/arx/gui/view/impl/menu/{DialogAbout.java => DialogError.java
 doc/gui/org/deidentifier/arx/io/ImportColumnIndexed.html
@@ -797,7 +800,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/common/table/CTContext.java
 ...l/{analyze => utility}/class-use/AnalysisContextVisualizationContingency.html
 ...view/impl/{explore/class-use/Gradient.html => risk/class-use/LayoutRisks.html
 ...isk.html => gui/org/deidentifier/arx/risk/class-use/RiskModelSampleRisks.html
-src/gui/org/deidentifier/arx/gui/view/Splash.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorRandomValues.java
 doc/gui/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyPrecomputed.html
 ...se/DataTableDecorator.html => datatable/class-use/DataTableViewportLayer.html
 src/example/org/deidentifier/arx/examples/Example28.java
@@ -820,7 +823,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/analyze/AnalyzeView.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/importdata/WizardImport.java
 src/main/org/deidentifier/arx/risk/RiskEstimator.java
 src/main/org/deidentifier/arx/aggregates/HierarchyBuilderRedactionBased.java
-doc/gui/org/deidentifier/arx/gui/model/class-use/ModelExplicitCriterion.html
+src/example/org/deidentifier/arx/examples/Example16.java
 doc/gui/org/deidentifier/arx/gui/model/Model.Perspective.html
 doc/gui/org/deidentifier/arx/gui/model/class-use/ModelDPresenceCriterion.html
 .../deidentifier/arx/gui/view/impl/risk/class-use/ViewHIPAAIdentifiersTable.html
@@ -841,7 +844,6 @@ doc/gui/org/deidentifier/arx/io/ImportAdapterJDBC.html
 src/main/org/deidentifier/arx/risk/PitmanModel.java
 doc/gui/org/deidentifier/arx/gui/view/impl/analyze/DensityData.html
 doc/gui/org/deidentifier/arx/gui/view/def/package-frame.html
-doc/gui/org/deidentifier/arx/class-use/DataSource.html
 doc/gui/org/deidentifier/arx/risk/package-summary.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogCriterionAddition.java
 src/main/org/deidentifier/arx/risk/hipaa/ValuePattern.java
@@ -861,12 +863,12 @@ src/main/org/deidentifier/arx/framework/lattice/IDGenerator.java
 ...tifier/arx/gui/view/impl/utility/class-use/LayoutUtility.ViewUtilityType.html
 src/main/org/deidentifier/arx/io/datasource/{Column.java => JdbcColumn.java
 .../view/impl/analyze/class-use/{LayoutAnalyze.html => ViewOutputProperties.html
-....html => wizard/class-use/ImportWizardPageColumns.DatatypeEditingSupport.html
+...ifier/arx/gui/view/impl/common/datatable/DataTableRowHeaderConfiguration.java
 doc/gui/org/deidentifier/arx/criteria/HierarchicalDistanceTCloseness.html
 src/gui/org/deidentifier/arx/gui/view/impl/analyze/LayoutAnalyze.java
 src/gui/org/deidentifier/arx/gui/view/impl/menu/PropertyDialog.java
 doc/gui/org/deidentifier/arx/metric/v2/DomainShareRedaction.html
-src/gui/org/deidentifier/arx/gui/view/impl/menu/AboutDialog.java
+...ew/impl/wizard/HierarchyWizardModelGrouping.HierarchyWizardGroupingGroup.html
 .../deidentifier/arx/gui/view/impl/common/class-use/DataTableBodyLayerStack.html
 ...impl/common/class-use/{ClipboardHandlerTree.html => ComponentMeterFigure.html
 ...dentifier/arx/aggregates/class-use/AggregateFunction.GenericCommonPrefix.html
@@ -879,7 +881,7 @@ doc/gui/org/deidentifier/arx/metric/class-use/MetricAECS.html
 ...n/org/deidentifier/arx/metric/v2/MetricMDNUEntropyPotentiallyPrecomputed.java
 src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentStatus.java
 ...se/LDiversity.html => aggregates/class-use/HierarchyBuilderGroupingBased.html
-...dentifier/arx/framework/check/distribution/DistributionAggregateFunction.java
+src/main/org/deidentifier/arx/io/ImportAdapter.java
 doc/gui/org/deidentifier/arx/aggregates/StatisticsBuilder.html
 ...> dev/org/deidentifier/arx/class-use/DataHandleInternal.InterruptHandler.html
 ...mpl/{define/ViewCriterionDPresence.java => menu/EditorCriterionDPresence.java
@@ -919,9 +921,9 @@ doc/gui/org/deidentifier/arx/aggregates/AggregateFunction.GenericInterval.html
 ...rruptible.html => gui/org/deidentifier/arx/risk/class-use/Groupify.Group.html
 ...tifier/arx/gui/view/impl/{wizards => wizard}/HierarchyWizardEditorLayout.java
 src/main/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.java
-...g/deidentifier/arx/gui/view/impl/common/class-use/DataTable.ImagePainter.html
+...fier/arx/gui/view/impl/{wizards => wizard}/HierarchyWizardEditorFunction.java
 src/gui/org/deidentifier/arx/gui/view/impl/menu/EditorCriterionLDiversity.java
-doc/gui/org/deidentifier/arx/criteria/{Enclosure.html => Inclusion.html
+doc/gui/org/deidentifier/arx/risk/package-frame.html
 doc/gui/org/deidentifier/arx/metric/class-use/InformationLossCombined.html
 src/gui/org/deidentifier/arx/gui/worker/Worker.java
 doc/gui/org/deidentifier/arx/metric/v2/MetricMDStatic.html
@@ -971,7 +973,7 @@ src/main/org/deidentifier/arx/io/{ => datasource}/CSVFileConfiguration.java
 ...org/deidentifier/arx/gui/view/impl/define/class-use/ViewAttributeWeights.html
 doc/api/org/deidentifier/arx/metric/v2/class-use/MetricSDNMAmbiguity.html
 .../risk/{ViewRisksClassDistributionTable.java => ViewRisksReIdentification.java
-...ui/org/deidentifier/arx/gui/view/impl/importwizard/WizardImportTablePage.java
+.../deidentifier/arx/gui/view/impl/menu/class-use/HierarchyWizardPageLabels.html
 .../deidentifier/arx/gui/view/impl/wizard/importdata/WizardImportSourcePage.java
 ...gui/org/deidentifier/arx/aggregates/HierarchyBuilderRedactionBased.Order.html
 .../gui/{view/impl/class-use/MainMenu.html => worker/io/class-use/XMLWriter.html
@@ -1099,7 +1101,7 @@ src/main/org/deidentifier/arx/risk/DisclosureRisk.java
 ...tes.QuasiIdentifierRisks.html => RiskModelAttributes.QuasiIdentifierRisk.html
 src/gui/org/deidentifier/arx/gui/view/impl/define/criteria/KAnonymityView.java
 ...org/deidentifier/arx/gui/view/impl/analyze/class-use/ViewPropertiesInput.html
-src/main/org/deidentifier/arx/risk/RiskModelHIPAASafeHarbor.java
+src/main/org/deidentifier/arx/metric/v2/CardinalitiesGeneric.java
 doc/gui/org/deidentifier/arx/risk/class-use/NewtonRaphsonPitman.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/DataView.html
 src/main/org/deidentifier/arx/risk/resources/HIPAAConstants.java
@@ -1113,11 +1115,11 @@ doc/gui/org/deidentifier/arx/metric/v2/MetricMDNMLoss.html
 doc/gui/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.Group.html
 ...ui/org/deidentifier/arx/gui/view/impl/menu/DialogGeneralizationSelection.html
 ...x/gui/view/impl/wizard/importdata/{WizardImportJdbcPage.java => JdbcPage.java
-doc/gui/org/deidentifier/arx/ARXLattice.Access.html
+src/gui/org/deidentifier/arx/gui/view/impl/menu/QueryDialog.java
 ...rg/deidentifier/arx/gui/view/impl/common/table/class-use/CTConfiguration.html
 ...tInput.html => dev/org/deidentifier/arx/risk/RiskModelEquivalenceClasses.html
 src/main/org/deidentifier/arx/io/datasource/CSVFileConfiguration.java
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/PropertyDialog.html
+src/gui/org/deidentifier/arx/gui/view/impl/explore/SWTLineDrawer.java
 doc/gui/org/deidentifier/arx/{gui => exceptions}/package-summary.html
 ...pl/{common/table/CTStyleConfiguration.java => menu/properties/PWCharText.java
 doc/gui/org/deidentifier/arx/gui/view/impl/utility/ViewPropertiesInput.html
@@ -1130,12 +1132,12 @@ doc/gui/org/deidentifier/arx/class-use/DataType.DataTypeWithFormat.html
 doc/gui/org/deidentifier/arx/criteria/class-use/AverageReidentificationRisk.html
 .../org/deidentifier/arx/metric/v2/class-use/AbstractMetricMultiDimensional.html
 ...identifier/arx/gui/view/impl/utility/ViewStatisticsEquivalenceClassTable.html
-doc/gui/org/deidentifier/arx/gui/view/def/IDataView.html
+...l/{menu/WizardHierarchyPageLabels.html => wizard/ImportWizardPageColumns.html
 doc/gui/org/deidentifier/arx/metric/v2/AbstractILMultiDimensional.html
 ...gui/view/impl/menu/{EditorCriterionRiskBased.html => EditorCriterionKMap.html
 src/main/org/deidentifier/arx/risk/RiskModelSampleBasedReidentificationRisk.java
 src/main/org/deidentifier/arx/framework/lattice/Transformation.java
-doc/gui/org/deidentifier/arx/ARXConfiguration.TClosenessCriterion.html
+...org/deidentifier/arx/aggregates/class-use/HierarchyBuilderRedactionBased.html
 ...k/class-use/{ViewRisksQuasiIdentifiers.html => ViewHIPAAIdentifiersTable.html
 doc/gui/org/deidentifier/arx/gui/model/class-use/ModelTClosenessCriterion.html
 ...x/gui/view/impl/wizard/importdata/{ImportWizard.java => ImportDataWizard.java
@@ -1167,7 +1169,7 @@ doc/gui/org/deidentifier/arx/gui/class-use/Controller.html
 ...ModelPopulationBasedUniquenessRisk.java => RiskModelPopulationUniqueness.java
 doc/gui/org/deidentifier/arx/class-use/DataScale.html
 src/gui/org/deidentifier/arx/gui/view/impl/explore/Gradient.java
-src/main/org/deidentifier/arx/masking/MaskingOperatorRandomValues.java
+src/gui/org/deidentifier/arx/gui/view/Splash.java
 ...org/deidentifier/arx/gui/view/impl/utility/class-use/ViewPropertiesInput.html
 doc/gui/org/deidentifier/arx/metric/InformationLoss.html
 ...DialogCriterionSelection.html => risk/class-use/ViewRisksAttributesTable.html
@@ -1187,6 +1189,7 @@ src/gui/org/deidentifier/arx/gui/worker/WorkerLoad.java
 .../org/deidentifier/arx/metric/v2/class-use/MetricMDNUNMEntropyPrecomputed.html
 ...ui/view/impl/common/{datatable/package-use.html => async/package-summary.html
 ...ableColumnHeaderConfiguration.html => datatable/DataTableFillLayoutStyle.html
+src/main/org/deidentifier/arx/metric/InformationLossCombined.java
 ...yze.html => wizard/class-use/HierarchyWizardEditorRenderer.RenderedGroup.html
 ...tifier/arx/gui/view/impl/common/table/class-use/StyleConfigurationHeader.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/class-use/ViewDataOutput.html
@@ -1236,7 +1239,6 @@ src/gui/org/deidentifier/arx/gui/model/ModelDifferentialPrivacyCriterion.java
 src/gui/org/deidentifier/arx/gui/model/ModelNodeFilter.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardPageColumns.java
 doc/gui/org/deidentifier/arx/io/package-summary.html
-...g/deidentifier/arx/risk/class-use/RiskModelPopulationBasedUniquenessRisk.html
 ...rg/deidentifier/arx/gui/view/def/{IDataTable.java => IComponentDataTable.java
 ...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
 ...dentifier/arx/aggregates/class-use/AggregateFunction.GenericCommonPrefix.html
@@ -1279,7 +1281,7 @@ doc/gui/org/deidentifier/arx/gui/model/ModelRisk.RiskModelForAttributes.html
 ...ce/LatticeBuilder.html => api/org/deidentifier/arx/metric/v2/DomainShare.html
 ...arx/aggregates/class-use/AggregateFunction.GenericArithmeticMeanOfBounds.html
 doc/gui/org/deidentifier/arx/gui/view/impl/analyze/LayoutAnalyze.html
-src/main/org/deidentifier/arx/framework/check/groupify/HashTableUtil.java
+.../view/impl/{common/ViewDataOutput.html => define/ViewCriterionTCloseness.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogFindReplace.java
 ...teria/{RiskBasedThresholdAverageRisk.html => AverageReidentificationRisk.html
 src/main/org/deidentifier/arx/metric/BoundInformationLoss.java
@@ -1294,7 +1296,7 @@ doc/gui/org/deidentifier/arx/gui/package-summary.html
 doc/gui/org/deidentifier/arx/gui/worker/io/package-summary.html
 ...org/deidentifier/arx/gui/view/impl/{analyze => utility}/LayoutStatistics.java
 ...ntifier/arx/gui/view/impl/common/{ => datatable}/DataTableSelectionLayer.java
-src/gui/org/deidentifier/arx/gui/view/impl/MainMenuItem.java
+...g/deidentifier/arx/risk/class-use/RiskModelPopulationBasedUniquenessRisk.html
 ...org/deidentifier/arx/gui/view/impl/menu/{QueryDialog.java => DialogQuery.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizards/HierarchyWizardModel.java
 ...ifier/arx/gui/view/impl/analyze/{StatisticsView.java => LayoutStatistics.java
@@ -1313,13 +1315,13 @@ src/main/org/deidentifier/arx/aggregates/StatisticsClassification.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/importdata/ColumnPage.java
 src/gui/org/deidentifier/arx/gui/view/impl/analyze/AnalysisManager.java
 ...pl/analyze/class-use/{DensityData.html => ViewStatisticsContingencyTable.html
-src/gui/org/deidentifier/arx/gui/worker/io/FileBuilder.java
+.../gui/view/impl/common/{datatable => }/DataTableColumnHeaderConfiguration.html
 src/main/org/deidentifier/arx/io/datasource/column/ExcelColumn.java
 src/main/org/deidentifier/arx/masking/AbstractInstanceMaskingString.java
-...pl/common/class-use/{ComponentGSSlider.html => ComponentResponsiveLayout.html
 src/main/org/deidentifier/arx/criteria/DDisclosurePrivacy.java
 doc/gui/org/deidentifier/arx/{gui/worker/Worker.html => metric/v2/IO.html
 ...i/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModelAbstract.html
+.../arx/gui/{worker/class-use/WorkerAnonymize.html => view/class-use/Splash.html
 ...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
 src/main/org/deidentifier/arx/risk/hipaa/StringPattern.java
 src/example/org/deidentifier/arx/examples/{Example2b.java => Example2c.java
@@ -1357,9 +1359,9 @@ doc/gui/org/deidentifier/arx/metric/v2/package-frame.html
 doc/gui/org/deidentifier/arx/metric/class-use/MetricEntropy.html
 ...eria/class-use/DPresence.html => risk/class-use/RiskModelPopulationBased.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/table/LayerViewport.java
-...dentifier/arx/{ARXListener.html => DataHandleStatistics.InterruptHandler.html
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/PropertyDialog.html
 ...tInput.html => dev/org/deidentifier/arx/io/class-use/ImportColumnIndexed.html
-doc/gui/org/deidentifier/arx/risk/class-use/DisclosureRisk.html
+...i/view/impl/wizard/importdata/{WizardImportColumnPage.java => ColumnPage.java
 doc/gui/org/deidentifier/arx/{gui/DebugData.html => risk/Gamma.html
 ...ifier/arx/gui/view/impl/common/datatable/DataTableConfigLabelAccumulator.html
 src/main/org/deidentifier/arx/masking/AbstractDictionaryMaskingDate.java
@@ -1383,7 +1385,7 @@ src/main/org/deidentifier/arx/metric/InformationLoss.java
 doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShare.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/SelectionEditor.html
 ...tifier/arx/gui/view/impl/risk/class-use/ViewRisksPlotUniquenessEstimates.html
-doc/gui/org/deidentifier/arx/ARXConfiguration.LDiversityCriterion.html
+src/gui/org/deidentifier/arx/gui/view/impl/common/table/CTLayer.java
 ...ier/arx/{DataScale.html => DataGeneralizationScheme.GeneralizationDegree.html
 ...pl/common/class-use/{DataTableImagePainter.html => ClipboardHandlerTable.html
 ...rx/gui/view/{def/IView.java => impl/analyze/AnalysisContextVisualization.java
@@ -1405,12 +1407,12 @@ src/main/org/deidentifier/arx/{ARXLatticeEstimator.java => UtilityEstimator.java
 src/gui/org/deidentifier/arx/gui/view/impl/define/criteria/CriterionView.java
 doc/gui/org/deidentifier/arx/metric/MetricDefault.html
 ...i/org/deidentifier/arx/gui/view/impl/define/class-use/ViewDataDefinition.html
-.../deidentifier/arx/gui/view/impl/menu/class-use/HierarchyWizardPageLabels.html
+...ui/org/deidentifier/arx/gui/view/impl/importwizard/WizardImportTablePage.java
 src/gui/org/deidentifier/arx/gui/view/impl/MainToolTip.java
 ...g/deidentifier/arx/gui/view/impl/menu/class-use/EditorCriterionRiskBased.html
 src/gui/org/deidentifier/arx/gui/model/ModelClassification.java
 .../arx/gui/Main.html => dev/org/deidentifier/arx/risk/RiskModelSampleBased.html
-...nu/{EditorCriterionLDiversity.html => EditorCriterionDifferentialPrivacy.html
+src/main/org/deidentifier/arx/risk/RiskModelSampleSummary.java
 ...i/org/deidentifier/arx/gui/view/impl/define/LayoutTransformationSettings.java
 doc/gui/org/deidentifier/arx/gui/view/impl/package-tree.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/hierarchy/HierarchyModel.java
@@ -1433,10 +1435,11 @@ doc/gui/org/deidentifier/arx/metric/v2/class-use/MetricSDAECS.html
 doc/gui/org/deidentifier/arx/gui/view/impl/utility/ViewPropertiesOutput.html
 ...ifier/arx/gui/view/impl/analyze/AnalysisContextVisualizationDistribution.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/importdata/ExcelPage.java
+doc/gui/org/deidentifier/arx/ARXConfiguration.LDiversityCriterion.html
 doc/gui/org/deidentifier/arx/gui/view/impl/utility/class-use/ViewStatistics.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogOrderSelection.html
 doc/gui/org/deidentifier/arx/common/TupleWrapper.html
-src/main/org/deidentifier/arx/metric/v2/CardinalitiesGeneric.java
+src/main/org/deidentifier/arx/risk/RiskModelHIPAASafeHarbor.java
 src/main/org/deidentifier/arx/io/datasource/IDataSourceCanContainHeader.java
 .../org/deidentifier/arx/{risk/class-use/Gamma.html => gui/class-use/Update.html
 src/main/org/deidentifier/arx/framework/lattice/NodeAction.java
@@ -1467,7 +1470,7 @@ doc/gui/org/deidentifier/arx/class-use/ARXLattice.html
 ...entifier/arx/gui/view/impl/class-use/{MainMenu.html => MainMenuSeparator.html
 ...ier/arx/gui/view/impl/wizard/HierarchyWizardEditorRenderer.RenderedGroup.html
 .../deidentifier/arx/gui/view/impl/common/datatable/DataTableSelectionLayer.java
-.../arx/gui/{worker/class-use/WorkerAnonymize.html => view/class-use/Splash.html
+...g/deidentifier/arx/gui/view/impl/common/class-use/DataTable.ImagePainter.html
 ...zardGroupingIntervalEditor.java => wizards/HierarchyWizardEditorInterval.java
 .../gui/view/impl/common/{ => datatable}/DataTableColumnHeaderConfiguration.html
 ...ifier/arx/gui/view/impl/{AbstractMenu.java => define/ViewPrivacyCriteria.java
@@ -1501,14 +1504,13 @@ doc/gui/org/deidentifier/arx/{gui => common}/package-tree.html
 src/main/org/deidentifier/arx/framework/check/transformer/Transformer04.java
 doc/gui/org/deidentifier/arx/metric/v2/MetricMDNMPrecision.html
 ...html => dev/org/deidentifier/arx/criteria/class-use/SampleBasedCriterion.html
-src/main/org/deidentifier/arx/risk/hipaa/HIPAAIdentifiers.java
+src/main/org/deidentifier/arx/common/Groupify.java
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/package-use.html
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/class-use/ViewTiles.html
 doc/dev/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
 doc/gui/org/deidentifier/arx/gui/model/class-use/Model.Perspective.html
-doc/gui/org/deidentifier/arx/gui/view/def/class-use/ISeparatorDialog.html
+doc/gui/org/deidentifier/arx/class-use/DataSource.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogSeparator.html
-src/main/org/deidentifier/arx/masking/ConstantShiftDecimalMasker.java
 ...i/org/deidentifier/arx/gui/view/impl/risk/ViewRisksHIPAAIdentifiersTable.html
 ...tifier/arx/io/{datasource/column/IndexColumn.java => ImportColumnIndexed.java
 ...rg/deidentifier/arx/io/class-use/{CSVDataOutput.html => ImportAdapterCSV.html
@@ -1516,7 +1518,6 @@ src/main/org/deidentifier/arx/masking/ConstantShiftDecimalMasker.java
 doc/gui/org/deidentifier/arx/risk/class-use/Groupify.Group.html
 ...tifier/arx/algorithm => gui/org/deidentifier/arx/exceptions}/package-use.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogQuery.java
-doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentRiskThresholds.html
 src/gui/org/deidentifier/arx/gui/{ => view}/SWTUtil.java
 src/main/org/deidentifier/arx/io/importdata/CSVImportAdapter.java
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/DialogProperties.html
@@ -1526,7 +1527,7 @@ src/main/org/deidentifier/arx/io/CSVConfig.java
 ...x/aggregates/class-use/HierarchyBuilderOrderBased.SerializableComparator.html
 ...able/FillLayerResetCommand.html => datatable/DataTableResizeColumnAction.html
 doc/gui/org/deidentifier/arx/risk/RiskModelHistogram.html
-...rg/deidentifier/arx/framework/check/distribution/IntArrayDictionaryEntry.java
+...pl/common/class-use/{ComponentTitledBorder.html => DataTableImagePainter.html
 .../view/impl/define/{criteria/ViewDPresence.java => ViewCriterionDPresence.java
 doc/gui/org/deidentifier/arx/Data.html
 src/main/org/deidentifier/arx/risk/AlgorithmNewtonPitman.java
@@ -1550,7 +1551,7 @@ doc/gui/org/deidentifier/arx/io/CSVDataOutput.html
 doc/gui/org/deidentifier/arx/gui/view/impl/risk/AnalysisContextRisk.html
 ...der.java => main/org/deidentifier/arx/risk/resources/us/HIPAAConstantsUS.java
 src/gui/org/deidentifier/arx/gui/{view/def => model}/ModelEvent.java
-src/main/org/deidentifier/arx/common/Groupify.java
+src/main/org/deidentifier/arx/risk/hipaa/HIPAAIdentifiers.java
 src/main/org/deidentifier/arx/metric/MetricPrecision.java
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogMultiSelection.html
 ...l/{menu/WizardHierarchyPageFanout.html => wizard/HierarchyWizardPageType.html
@@ -1581,7 +1582,7 @@ doc/gui/org/deidentifier/arx/metric/v2/MetricMDNUEntropyPrecomputed.html
 ...l/{define/ViewCriterionTCloseness.html => menu/EditorCriterionTCloseness.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/hierarchy/HierarchyLayout.java
 ...g/deidentifier/arx/metric/v2/class-use/AbstractILMultiDimensionalReduced.html
-...ew/impl/wizard/HierarchyWizardModelGrouping.HierarchyWizardGroupingGroup.html
+src/gui/org/deidentifier/arx/gui/view/impl/menu/AboutDialog.java
 ...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
 ...org/deidentifier/arx/aggregates/classifiers/MultiClassLogisticRegression.java
 src/gui/org/deidentifier/arx/gui/view/impl/explore/ViewSolutionSpace.java
@@ -1595,12 +1596,12 @@ doc/gui/org/deidentifier/arx/common/class-use/Groupify.Group.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogCriterionSelection.java
 src/main/org/deidentifier/arx/metric/v2/MetricSDNMAmbiguity.java
 src/gui/org/deidentifier/arx/gui/view/impl/risk/ViewHIPAAIdentifierTable.java
+...g/deidentifier/arx/gui/view/impl/menu/EditorCriterionDifferentialPrivacy.java
 ...er/arx/gui/view/impl/analyze/{ViewProperties.html => ViewInputProperties.html
 src/gui/org/deidentifier/arx/gui/view/SWTUtil.java
 src/gui/org/deidentifier/arx/gui/view/impl/define/ViewAttributeDefinition.java
 doc/gui/org/deidentifier/arx/aggregates/StatisticsFrequencyDistribution.html
 .../deidentifier/arx/gui/view/impl/define/class-use/ViewCriterionTCloseness.html
-doc/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModel.html
 .../deidentifier/arx/gui/view/impl/common/table/class-use/LayerColumnHeader.html
 ...ier/arx/metric/{MetricDefault.java => v2/AbstractMetricSingleDimensional.java
 src/main/org/deidentifier/arx/framework/data/DataManager.java
@@ -1618,6 +1619,7 @@ doc/gui/org/deidentifier/arx/gui/model/ModelViewConfig.html
 ...ifier/arx/gui/view/impl/utility/AnalysisContextVisualizationDistribution.java
 ...yWizard.HierarchyWizardView.html => analyze/AnalysisContextVisualization.html
 src/main/org/deidentifier/arx/metric/MetricDescription.java
+doc/gui/org/deidentifier/arx/gui/model/class-use/ModelTransformationMode.html
 src/main/org/deidentifier/arx/aggregates/StatisticsEquivalenceClasses.java
 .../arx/gui/view/impl/define/{DataDefinitionView.java => ViewDataDefinition.java
 src/gui/org/deidentifier/arx/gui/model/ModelClipboard.java
@@ -1672,7 +1674,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/class-use/AbstractMenu.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardModel.java
 ...arx/gui/view/impl/common/{datatable => }/DataTableRowHeaderConfiguration.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/criteria/ViewKAnonymity.html
-...pl/common/class-use/{ComponentTitledBorder.html => DataTableImagePainter.html
+...rg/deidentifier/arx/framework/check/distribution/IntArrayDictionaryEntry.java
 ...k/{RiskModelSampleBasedReidentificationRisk.java => RiskModelSampleRisks.java
 ...dleInput.html => api/org/deidentifier/arx/class-use/DataHandleStatistics.html
 ...g/deidentifier/arx/gui/view/impl/menu/class-use/HierarchyWizardPageOrder.html
@@ -1702,6 +1704,7 @@ src/main/org/deidentifier/arx/framework/check/groupify/IHashGroupify.java
 ...rg/deidentifier/arx/gui/view/impl/common/DataTableRowHeaderConfiguration.java
 doc/gui/org/deidentifier/arx/gui/model/Model.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/package-use.html
+src/main/org/deidentifier/arx/risk/hipaa/MatcherConfig.java
 doc/gui/org/deidentifier/arx/metric/v2/__MetricV2.html
 ...l.html => metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
 ...i/view/impl/{menu/class-use/DialogHelp.html => common/async/package-tree.html
@@ -1739,7 +1742,7 @@ doc/gui/org/deidentifier/arx/gui/resources/package-tree.html
 ...tifier/arx/metric/v2/{MetricSDNMAmbiguity.html => MetricSDNMKLDivergence.html
 src/example/org/deidentifier/arx/examples/Example34.java
 ...x/gui/view/impl/common/{ => datatable}/class-use/DataTableSelectionLayer.html
-.../{menu/WizardHierarchyPageLabels.html => wizard/HierarchyWizardPageFinal.html
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogQueryResult.html
 src/main/org/deidentifier/arx/io/CSVAbstractInput.java
 doc/gui/org/deidentifier/arx/metric/v2/package-use.html
 .../view/impl/{analyze => utility}/class-use/ViewStatisticsContingencyTable.html
@@ -1764,7 +1767,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/analyze/DensityView.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewUtilityMeasures.html
 ...i/view/impl/{analyze => utility}/AnalysisContextVisualizationContingency.java
 ...x/gui/view/impl/wizard/{importdata/JdbcPage.java => ImportWizardPageJDBC.java
-...ntifier/arx/gui/view/impl/analyze/{PropertiesView.java => ViewProperties.java
+doc/gui/org/deidentifier/arx/criteria/RecursiveCLDiversity.html
 ...rg/deidentifier/arx/gui/view/impl/utility/ViewStatisticsContingencyTable.html
 ...fier/arx/gui/worker/Worker.html => dev/org/deidentifier/arx/metric/v2/IO.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModelOrder.html
@@ -1822,9 +1825,8 @@ doc/gui/org/deidentifier/arx/criteria/DistinctLDiversity.html
 ...tion.GenericSetOfPrefixes.html => AggregateFunction.GenericGeometricMean.html
 .../gui/view/impl/define/{ViewSubsetDefinition.html => ViewAttributeWeights.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/ARXWizard.html
-...iew/impl/define/{CriterionDefinitionView.java => ViewCriterionDefinition.java
+...rchy/{HierarchyWizardModelInterval.java => HierarchyWizardModelIntervals.java
 doc/gui/org/deidentifier/arx/gui/view/impl/MainMenuItem.html
-doc/gui/org/deidentifier/arx/metric/Metric.html
 doc/gui/org/deidentifier/arx/io/CSVDataInput.html
 doc/gui/org/deidentifier/arx/gui/model/ModelDPresenceCriterion.html
 src/gui/org/deidentifier/arx/gui/view/impl/define/ViewWeights.java
@@ -1839,6 +1841,7 @@ doc/gui/org/deidentifier/arx/risk/Groupify.Group.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogHelpConfig.Entry.html
 ...anceTCloseness.html => aggregates/class-use/AggregateFunction.GenericSet.html
 doc/gui/org/deidentifier/arx/metric/MetricStatic.html
+src/gui/org/deidentifier/arx/gui/view/def/IAttachable.java
 ...se/{RiskModelSampleBasedUniquenessRisk.html => RiskModelSampleUniqueness.html
 src/main/org/deidentifier/arx/risk/HIPAAMatcherAttributeValue.java
 ...fier/arx/gui/view/impl/wizard/ImportWizardPageColumns.NameEditingSupport.html
@@ -1860,7 +1863,7 @@ src/main/org/deidentifier/arx/masking/GenerateRandomDateMasker.java
 .../view/impl/wizard/{importdata/ColumnPage.java => ImportWizardPageColumns.java
 ...impl/common/{ => datatable}/class-use/DataTableColumnHeaderConfiguration.html
 src/gui/org/deidentifier/arx/gui/view/impl/risk/LayoutRisksTop.java
-...eidentifier/arx/aggregates/class-use/HierarchyBuilderGroupingBased.Group.html
+src/gui/org/deidentifier/arx/gui/view/impl/MainMenuItem.java
 ...i/view/impl/common/class-use/{ViewDataInput.html => ComponentFilterTable.html
 .../{ViewStatisticsSummaryTable.java => ViewStatisticsEquivalenceClassTable.java
 src/gui/org/deidentifier/arx/gui/model/ModelAuditTrailEntry.java
@@ -1882,7 +1885,6 @@ doc/gui/org/deidentifier/arx/gui/model/class-use/ModelRisk.ViewRiskType.html
 ...use/LayoutAnalyze.html => wizard/class-use/HierarchyWizardEditorInterval.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/DialogQueryResult.html
 doc/gui/allclasses-noframe.html
-...e/{ViewRisksClassDistributionPlot.html => ViewRisksReIdentificationTable.html
 ...i/org/deidentifier/arx/gui/view/impl/menu/class-use/DialogComboSelection.html
 doc/gui/org/deidentifier/arx/metric/class-use/MetricDefault.html
 ...isk/class-use/{ViewRisksBasicEstimates.html => ViewRisksReIdentification.html
@@ -1892,7 +1894,8 @@ doc/gui/org/deidentifier/arx/gui/view/impl/class-use/MainContextMenu.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/criteria/ViewLDiversity.html
 ...heEntry.java => gui/org/deidentifier/arx/gui/view/impl/MainMenuSeparator.java
 src/gui/org/deidentifier/arx/gui/model/ModelDDisclosurePrivacyCriterion.java
-doc/gui/org/deidentifier/arx/risk/package-frame.html
+src/example/org/deidentifier/arx/examples/{Example14.java => Example40.java
+doc/gui/org/deidentifier/arx/criteria/{Enclosure.html => Inclusion.html
 ...iewStatisticsClassificationOutput.java => ViewStatisticsRegressionOutput.java
 ...g/deidentifier/arx/gui/model/{ModelViewConfig.html => ModelLocalRecoding.html
 src/main/org/deidentifier/arx/framework/check/transformer/Transformer06.java
@@ -1962,7 +1965,7 @@ src/main/org/deidentifier/arx/risk/hipaa/Label.java
 doc/gui/org/deidentifier/arx/criteria/class-use/Enclosure.html
 doc/gui/org/deidentifier/arx/ARXPopulationModel.Region.html
 ...tifier/arx/gui/view/impl/menu/class-use/{DialogAbout.html => DialogError.html
-src/example/org/deidentifier/arx/examples/{Example7.java => Example15.java
+doc/gui/org/deidentifier/arx/gui/view/impl/analyze/class-use/DensityView.html
 doc/api/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
 src/main/org/deidentifier/arx/io/{importdata => }/ICanContainHeader.java
 ...gui/view/impl/analyze/class-use/AnalysisContextVisualizationDistribution.html
@@ -2022,7 +2025,6 @@ src/gui/org/deidentifier/arx/gui/view/impl/define/ViewSubsetDefinition.java
 src/gui/org/deidentifier/arx/gui/view/impl/menu/BooleanEditor.java
 ...se/{RiskModelPopulationUniqueness.html => HIPAAIdentifierMatch.MatchType.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentMeterFigure.html
-...ze/class-use/LayoutStatistics.html => wizard/class-use/ImportWizardModel.html
 ...arx/metric/v2/class-use/{MetricMDNUNMEntropy.html => MetricSDNMAmbiguity.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogCriterionUpdate.html
 ...r/arx/gui/view/impl/{menu/hierarchy => wizards}/HierarchyWizardPageOrder.java
@@ -2058,13 +2060,13 @@ src/main/org/deidentifier/arx/io/Column.java
 ...identifier/arx/gui/model/{ModelLocalRecoding.html => ModelClassification.html
 ...g/deidentifier/arx/gui/view/impl/common/{ => datatable}/DataTableContext.html
 ...rg/deidentifier/arx/gui/view/impl/analyze/ViewStatisticsContingencyTable.html
+doc/gui/org/deidentifier/arx/risk/package-use.html
 ...entifier/arx/gui/view/impl/wizard/class-use/ImportWizardModel.SourceType.html
 ...ifier/arx/gui/view/impl/{wizards => wizard}/HierarchyWizardPageIntervals.java
 src/main/org/deidentifier/arx/framework/check/history/MRUCacheEntry.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/table/CTConfiguration.html
 src/gui/org/deidentifier/arx/gui/view/impl/utility/ViewStatistics.java
 ...gHelpConfig.Entry.html => wizard/class-use/HierarchyWizardModelIntervals.html
-...identifier/arx/gui/view/impl/analyze/ViewStatisticsDistributionHistogram.java
 doc/gui/org/deidentifier/arx/gui/view/def/IHierarchyEditorView.html
 doc/gui/org/deidentifier/arx/metric/v2/DomainShare.html
 ...i/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModelGrouping.java
@@ -2085,7 +2087,7 @@ src/main/org/deidentifier/arx/criteria/EntropyLDiversity.java
 src/main/org/deidentifier/arx/metric/MetricDMStar.java
 doc/gui/org/deidentifier/arx/risk/Gamma.html
 doc/gui/org/deidentifier/arx/io/ImportAdapterCSV.html
-src/main/org/deidentifier/arx/io/{importdata => }/Column.java
+doc/gui/org/deidentifier/arx/risk/PitmanModel.html
 ...Util.html => api/org/deidentifier/arx/metric/v2/class-use/MetricMDHeight.html
 doc/gui/org/deidentifier/arx/gui/worker/class-use/WorkerSave.html
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/NodeClipboardView.html
@@ -2108,6 +2110,7 @@ doc/gui/org/deidentifier/arx/aggregates/package-tree.html
 ...g/deidentifier/arx/gui/view/impl/common/{ => datatable}/DataTableContext.java
 ...archy/{HierarchyWizardGroupingModel.java => HierarchyWizardModelGrouping.java
 src/main/org/deidentifier/arx/masking/RandomShiftDecimalMasker.java
+src/gui/org/deidentifier/arx/gui/view/def/{ILayout.java => IDialog.java
 src/main/org/deidentifier/arx/common/WrappedBoolean.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/table/package-frame.html
 ...entifier/arx/metric/v2/class-use/MetricMDNUEntropyPotentiallyPrecomputed.html
@@ -2141,7 +2144,7 @@ doc/gui/org/deidentifier/arx/gui/worker/class-use/WorkerLoadXMLHandler.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/HierarchyWizardModel.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/hierarchy/WizardHierarchy.java
 ...aggregates/HierarchyBuilder.Type.html => criteria/KMap.CellSizeEstimator.html
-src/main/org/deidentifier/arx/io/ImportAdapter.java
+doc/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModel.html
 ... => dev/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogFormatSelection.java
 src/main/org/deidentifier/arx/aggregates/StatisticsBuilderInterruptible.java
@@ -2159,12 +2162,10 @@ doc/gui/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
 ...rg/deidentifier/arx/gui/view/impl/class-use/{MainMenu.html => MainSplash.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/class-use/ViewCriterion.html
 src/main/org/deidentifier/arx/hierarchy/AggregateFunction.java
-...ialogHelpConfig.Entry.html => wizard/HierarchyWizard.HierarchyWizardView.html
 doc/gui/org/deidentifier/arx/io/class-use/ImportConfigurationCSV.html
 ... gui/org/deidentifier/arx/criteria/class-use/AverageReidentificationRisk.html
 src/main/org/deidentifier/arx/risk/{DisclosureRisk.java => RiskEstimator.java
 ...rg/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainSharePrecomputed.html
-src/gui/org/deidentifier/arx/gui/view/impl/common/table/DataProviderWrapped.java
 doc/gui/org/deidentifier/arx/gui/class-use/SWTUtil.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/EditorSelection.html
 ...iew/impl/common/table/{CTLayerCommandReset.java => FillLayerResetCommand.java
@@ -2175,10 +2176,9 @@ doc/gui/org/deidentifier/arx/io/class-use/CSVAbstractInput.html
 ...zardGroupingFunctionEditor.java => wizards/HierarchyWizardEditorFunction.java
 src/example/org/deidentifier/arx/examples/{Example22.java => Example23.java
 doc/gui/org/deidentifier/arx/risk/RiskModelSampleSummary.html
-...r/arx/gui/view/impl/wizard/class-use/HierarchyWizard.HierarchyWizardView.html
 .../org/deidentifier/arx/gui/view/impl/{analyze => utility}/AnalysisManager.java
 ...arx/metric/v2/{MetricMDNUNMEntropy.java => MetricMDNUNMNormalizedEntropy.java
-doc/gui/org/deidentifier/arx/gui/view/impl/analyze/class-use/DensityView.html
+src/example/org/deidentifier/arx/examples/{Example7.java => Example15.java
 doc/gui/org/deidentifier/arx/gui/worker/package-summary.html
 ...gui/org/deidentifier/arx/gui/view/impl/analyze/class-use/HeatmapRenderer.html
 ...arx/gui/view/impl/{common/ClipboardHandlerTable.html => explore/Gradient.html
@@ -2189,7 +2189,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentGSSlider.java
 ...org/deidentifier/arx/class-use/ARXConfiguration.ARXConfigurationInternal.html
 src/gui/org/deidentifier/arx/gui/view/def/IDataView.java
 ...entifier/arx/class-use/AttributeType.MicroAggregationFunctionDescription.html
-src/main/org/deidentifier/arx/masking/MaskingOperatorSearchAndReplace.java
+...ze/class-use/LayoutStatistics.html => wizard/class-use/ImportWizardModel.html
 ...analyze/ViewStatisticsDistributionHistogram.java => risk/ViewUniquesPlot.java
 src/gui/org/deidentifier/arx/gui/view/impl/menu/SeparatorDialog.java
 ...dentifier/arx/gui/view/impl/utility/{LayoutAnalyze.java => LayoutUtility.java
@@ -2200,7 +2200,7 @@ src/main/org/deidentifier/arx/metric/InformationLossDefaultWithBound.java
 .../impl/{analyze/AnalysisContext.Context.html => common/async/AnalysisData.html
 ...ifier/arx/gui/view/impl/{importwizard => wizard/importdata}/WizardImport.java
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/DialogSeparator.html
-doc/gui/org/deidentifier/arx/risk/PitmanModel.html
+src/main/org/deidentifier/arx/io/{importdata => }/Column.java
 ...gui/class-use/Main.html => dev/org/deidentifier/arx/risk/class-use/Gamma.html
 doc/gui/org/deidentifier/arx/DataType.ARXDate.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardPageExcel.java
@@ -2246,6 +2246,7 @@ src/main/org/deidentifier/arx/framework/check/history/MRUCache.java
 src/main/org/deidentifier/arx/metric/v2/ILSingleDimensional.java
 src/main/org/deidentifier/arx/io/ImportColumnJDBC.java
 ... => gui/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
+doc/gui/org/deidentifier/arx/gui/view/def/class-use/ISeparatorDialog.html
 src/main/org/deidentifier/arx/masking/Random.java
 doc/gui/org/deidentifier/arx/io/class-use/CSVSyntax.html
 doc/gui/org/deidentifier/arx/criteria/Inclusion.html
@@ -2262,11 +2263,13 @@ src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogMultiSelection.java
 src/example/org/deidentifier/arx/examples/Example30.java
 src/main/org/deidentifier/arx/risk/hipaa/IBANPattern.java
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/package-frame.html
+...{ViewStatisticsClassificationInput.java => ViewStatisticsRegressionInput.java
 src/main/org/deidentifier/arx/metric/v2/MetricMDNUEntropyPrecomputed.java
 ...pl/risk/{ViewRisksAttributesTable.java => ViewRisksQuasiIdentifiersTable.java
 ...arx/metric/v2/class-use/{MetricMDNUNMEntropy.html => MetricSDNMAmbiguity.html
 doc/gui/org/deidentifier/arx/risk/class-use/HIPAAIdentifierMatch.html
 src/main/org/deidentifier/arx/framework/check/transformer/Transformer02.java
+...dentifier/arx/framework/check/distribution/DistributionAggregateFunction.java
 .../gui/view/impl/analyze/class-use/AnalysisContextVisualizationContingency.html
 src/main/org/deidentifier/arx/io/importdata/ExcelFileImportAdapter.java
 src/main/org/deidentifier/arx/{io => risk}/package-info.java
@@ -2287,14 +2290,14 @@ doc/gui/org/deidentifier/arx/gui/view/impl/utility/class-use/ViewProperties.html
 doc/gui/org/deidentifier/arx/common/package-use.html
 ...i/org/deidentifier/arx/gui/view/impl/importwizard/WizardImportColumnPage.java
 ...WizardHierarchyPageOrder.html => wizard/class-use/ImportWizardPageSource.html
-...ier/arx/gui/view/impl/common/datatable/class-use/DataTableGridLayerStack.html
+...nu/WizardHierarchyPageFanout.html => wizard/HierarchyWizardPageIntervals.html
 ...tColumn.html => dev/org/deidentifier/arx/metric/InformationLossWithBound.html
 doc/gui/org/deidentifier/arx/gui/view/def/class-use/ILayout.html
 ...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizards/HierarchyWizardPageFinal.java
 src/main/org/deidentifier/arx/io/importdata/ImportAdapter.java
 doc/gui/org/deidentifier/arx/gui/view/impl/class-use/MainMenuSeparator.html
-...ui/org/deidentifier/arx/gui/view/impl/common/ComponentTitledFolderButton.java
+doc/gui/org/deidentifier/arx/risk/class-use/EquivalenceClassModel.html
 src/main/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.java
 src/gui/org/deidentifier/arx/gui/view/impl/utility/LayoutUtilityStatistics.java
 .../deidentifier/arx/metric/{MetricUserDefinedWeighted.java => MetricStatic.java
@@ -2316,6 +2319,7 @@ src/main/org/deidentifier/arx/framework/data/Data.java
 src/main/org/deidentifier/arx/risk/{NewtonSNB.java => AlgorithmNewtonSNB.java
 src/gui/org/deidentifier/arx/gui/model/ModelRisk.java
 doc/gui/org/deidentifier/arx/aggregates/class-use/StatisticsClassification.html
+doc/gui/org/deidentifier/arx/criteria/class-use/Inclusion.html
 doc/gui/org/deidentifier/arx/metric/MetricWeighted.html
 doc/gui/org/deidentifier/arx/aggregates/HierarchyBuilderIntervalBased.Range.html
 src/main/org/deidentifier/arx/ARXLattice.java
@@ -2344,14 +2348,13 @@ src/gui/org/deidentifier/arx/gui/view/def/IMainWindow.java
 src/main/org/deidentifier/arx/criteria/LDiversity.java
 doc/gui/org/deidentifier/arx/gui/Configuration.html
 src/main/org/deidentifier/arx/io/CSVDataInput.java
-...org/deidentifier/arx/gui/view/impl/utility/ViewStatisticsRegressionInput.java
 doc/gui/org/deidentifier/arx/gui/worker/io/package-use.html
 ...ialogHelpConfig.Entry.html => wizard/class-use/HierarchyWizardModelOrder.html
 src/main/org/deidentifier/arx/framework/check/groupify/HashGroupifyEntry.java
 ...ntervalHierarchyBuilder.java => aggregates/HierarchyBuilderIntervalBased.java
 doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewCriterionDPresence.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogAbout.html
-doc/gui/org/deidentifier/arx/risk/class-use/EquivalenceClassModel.html
+doc/gui/org/deidentifier/arx/aggregates/package-summary.html
 ...rx/gui/view/impl/common/class-use/{ViewDataInput.html => ComponentStatus.html
 ...g/deidentifier/arx/gui/view/impl/common/datatable/DataTableViewportLayer.html
 ...fier/arx/{metric/v2/Cardinalities.html => gui/model/ModelAuditTrailEntry.html
@@ -2360,9 +2363,9 @@ src/gui/org/deidentifier/arx/gui/view/impl/analyze/ViewPropertiesInput.java
 src/gui/org/deidentifier/arx/gui/view/impl/define/ViewCriterionKAnonymity.java
 doc/gui/org/deidentifier/arx/gui/view/impl/define/LayoutAttributeSettings.html
 ...ew/impl/menu/{DialogOrderSelection.html => DialogGeneralizationSelection.html
-...g.Mode.html => dev/org/deidentifier/arx/aggregates/HierarchyBuilder.Type.html
+doc/gui/org/deidentifier/arx/metric/class-use/MetricPrecision.html
 doc/gui/deprecated-list.html
-src/main/org/deidentifier/arx/metric/InformationLossCombined.java
+...impl/wizard/HierarchyWizardEditorFunction.IHierarchyFunctionEditorParent.html
 ...i/org/deidentifier/arx/gui/view/impl/risk/ViewRisksQuasiIdentifiersTable.java
 ...pi/org/deidentifier/arx/metric/v2/class-use/ILSingleDimensionalWithBound.html
 src/main/org/deidentifier/arx/risk/hipaa/Classifier.java
@@ -2392,7 +2395,7 @@ src/main/org/deidentifier/arx/metric/MetricDefault.java
 ...l => gui/org/deidentifier/arx/risk/RiskModelSampleSummary.ProsecutorRisk.html
 doc/gui/org/deidentifier/arx/DataHandleOutput.ResultIterator.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/EditorSelection.html
-...i/org/deidentifier/arx/gui/view/impl/wizards/HierarchyWizardEditorLayout.java
+...deidentifier/arx/gui/view/impl/menu/{ProjectDialog.java => DialogProject.java
 doc/gui/org/deidentifier/arx/io/class-use/CSVHierarchyInput.html
 src/main/org/deidentifier/arx/DataHandleStatistics.java
 ...l.html => dev/org/deidentifier/arx/metric/v2/class-use/MetricMDPrecision.html
@@ -2438,7 +2441,7 @@ doc/gui/org/deidentifier/arx/package-frame.html
 doc/gui/org/deidentifier/arx/gui/model/ModelExplicitCriterion.html
 ...eFunction.GenericInterval.html => AggregateFunction.GenericGeometricMean.html
 doc/gui/overview-tree.html
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/HierarchyWizard.html
+src/main/org/deidentifier/arx/io/ImportAdapterCSV.java
 ...rx/{gui/view/class-use/SWTUtil.html => metric/v2/class-use/Cardinalities.html
 doc/gui/org/deidentifier/arx/io/class-use/ImportAdapterJDBC.html
 ...arx/gui/view/impl/wizard/importdata/{WizardImportCsvPage.java => CsvPage.java
@@ -2455,7 +2458,7 @@ doc/gui/org/deidentifier/arx/aggregates/StatisticsEquivalenceClasses.html
 src/gui/org/deidentifier/arx/gui/DebugData.java
 doc/gui/org/deidentifier/arx/gui/worker/WorkerImport.html
 src/main/org/deidentifier/arx/framework/package-info.java
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/SeparatorDialog.html
+src/gui/org/deidentifier/arx/gui/view/impl/analyze/Analysis.java
 ...i/org/deidentifier/arx/gui/view/impl/menu/class-use/HierarchyWizardModel.html
 doc/gui/org/deidentifier/arx/metric/v2/ILMultiDimensionalArithmeticMean.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardPageCSV.java
@@ -2481,17 +2484,17 @@ src/main/org/deidentifier/arx/risk/AbstractModelPopulation.java
 doc/gui/org/deidentifier/arx/risk/class-use/RiskModelPopulationUniqueness.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/WizardHierarchyPageLabels.html
 doc/gui/org/deidentifier/arx/metric/MetricDescription.html
-...impl/wizard/HierarchyWizardEditorFunction.IHierarchyFunctionEditorParent.html
+...use/ViewCriterion.html => analyze/class-use/AnalysisContextVisualization.html
 ...er/arx/gui/view/impl/{menu/hierarchy => wizards}/HierarchyWizardPageType.java
 src/example/org/deidentifier/arx/examples/Example24.java
 ...i/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardModel.SourceType.html
 src/gui/org/deidentifier/arx/gui/view/def/IEditor.java
 ...gui/view/class-use/SWTUtil.html => metric/v2/class-use/MetricMDNUEntropy.html
+...arx/gui/view/impl/define/criteria/{LDiversityView.java => ViewLDiversity.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentHierarchy.html
 ...i/org/deidentifier/arx/gui/model/{ModelViewConfig.html => ModelClipboard.html
 src/main/org/deidentifier/arx/io/{importdata => }/CSVFileConfiguration.java
 doc/gui/org/deidentifier/arx/io/ImportConfigurationExcel.ExcelFileTypes.html
-src/gui/org/deidentifier/arx/gui/view/impl/common/table/CTLayer.java
 src/gui/org/deidentifier/arx/gui/view/impl/risk/ViewUniquesPlot.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/table/DataProviderWrapped.html
 ...arx/io/importdata/{FileConfiguration.java => DataSourceFileConfiguration.java
@@ -2522,7 +2525,6 @@ doc/gui/org/deidentifier/arx/gui/view/impl/analyze/ViewProperties.Property.html
 doc/dev/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
 ...arx/gui/view/impl/define/criteria/{TClosenessView.java => ViewTCloseness.java
 doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
-src/main/org/deidentifier/arx/risk/RiskModelSampleSummary.java
 ...tifier/arx/gui/view/impl/menu/class-use/{DialogAbout.html => DialogDebug.html
 src/main/org/deidentifier/arx/io/{CSVConfig.java => CSVSyntax.java
 src/main/org/deidentifier/arx/metric/v2/MetricMDNMPrecision.java
@@ -2539,19 +2541,19 @@ src/gui/org/deidentifier/arx/gui/model/Configuration.java
 src/main/org/deidentifier/arx/metric/MetricDM.java
 .../deidentifier/arx/gui/view/impl/menu/class-use/EditorCriterionTCloseness.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/criteria/ViewDPresence.html
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/StringEditor.html
+...ifier/arx/gui/view/impl/{wizards => wizard}/HierarchyWizardModelAbstract.java
 doc/gui/org/deidentifier/arx/package-tree.html
 ...ntifier/arx/gui/view/impl/utility/class-use/AnalysisContextVisualization.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/ARXWizardDialog.java
-doc/gui/org/deidentifier/arx/metric/class-use/MetricPrecision.html
 ...dentifier/arx/gui/view/impl/common/ComponentTableHeaderConfigurationList.java
 ...ew/impl/{common/ComponentTitleBar.html => wizard/ImportWizardModelColumn.html
 ...fier/arx/gui/view/impl/menu/{QueryDialogResult.java => DialogQueryResult.java
 ...tifier/arx/metric/v2/MetricMDNUNMNormalizedEntropyPotentiallyPrecomputed.html
 ...x/risk/RiskModelPopulationBasedUniquenessRisk.StatisticalPopulationModel.html
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/AboutDialog.html
+src/gui/org/deidentifier/arx/gui/view/impl/common/table/CTLayerCommandReset.java
 src/gui/org/deidentifier/arx/gui/view/impl/risk/ViewRisksQuasiIdentifiers.java
 src/gui/org/deidentifier/arx/gui/model/ModelImplicitCriterion.java
+src/main/org/deidentifier/arx/risk/hipaa/{Identifier.java => Category.java
 ...org/deidentifier/arx/gui/view/impl/define/class-use/ViewSubsetDefinition.html
 doc/gui/org/deidentifier/arx/gui/package-use.html
 src/main/org/deidentifier/arx/io/ImportConfigurationExcel.java
@@ -2587,15 +2589,15 @@ doc/gui/org/deidentifier/arx/criteria/class-use/KAnonymity.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizard.html
 ...ntifier/arx/gui/view/impl/wizard/class-use/HierarchyWizardModelIntervals.html
 ...v/org/deidentifier/arx/AttributeType.MicroAggregationFunctionDescription.html
-src/example/org/deidentifier/arx/examples/Example16.java
+...r/arx/gui/view/impl/wizard/class-use/HierarchyWizard.HierarchyWizardView.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/HierarchyWizard.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogHelpConfig.java
-...nu/WizardHierarchyPageFanout.html => wizard/HierarchyWizardPageIntervals.html
+...ier/arx/gui/view/impl/common/datatable/class-use/DataTableGridLayerStack.html
 src/main/org/deidentifier/arx/metric/v2/AbstractMetricSingleDimensional.java
 .../deidentifier/arx/gui/view/impl/common/datatable/DataTableBodyLayerStack.java
 ...w/impl/define/{ViewAttributeWeights.html => LayoutTransformationSettings.html
 doc/gui/org/deidentifier/arx/metric/v2/class-use/MetricSDDiscernability.html
-...ifier/arx/gui/view/impl/common/datatable/DataTableRowHeaderConfiguration.java
+....html => wizard/class-use/ImportWizardPageColumns.DatatypeEditingSupport.html
 ...impl/{menu/WizardHierarchyPageFanout.html => wizard/ImportWizardPageJDBC.html
 ...zard/class-use/HierarchyWizardModelGrouping.HierarchyWizardGroupingRange.html
 ...er/arx/gui/view/impl/menu/hierarchy/ComponentIntervalSpecificationEditor.java
@@ -2633,7 +2635,6 @@ doc/gui/org/deidentifier/arx/io/class-use/ImportAdapterExcel.html
 src/gui/org/deidentifier/arx/gui/model/ModelRiskBasedCriterion.java
 doc/gui/org/deidentifier/arx/DataGeneralizationScheme.GeneralizationDegree.html
 doc/dev/org/deidentifier/arx/metric/v2/DomainShareInterval.html
-...ui/org/deidentifier/arx/gui/view/impl/define/ViewAttributeTransformation.java
 .../deidentifier/arx/gui/view/impl/wizard/class-use/ImportWizardPageColumns.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/EditorBoolean.html
 src/main/org/deidentifier/arx/criteria/RiskBasedPrivacyCriterion.java
@@ -2642,6 +2643,7 @@ src/main/org/deidentifier/arx/criteria/RiskBasedPrivacyCriterion.java
 ...html => gui/org/deidentifier/arx/class-use/ARXConfiguration.Monotonicity.html
 doc/gui/org/deidentifier/arx/{gui/DebugData.html => risk/Groupify.html
 ...i/org/deidentifier/arx/gui/view/impl/common/datatable/DataTableGridLayer.java
+...ui/org/deidentifier/arx/gui/view/impl/common/ComponentTitledFolderButton.java
 ...er/arx/gui/view/impl/common/class-use/DataTableColumnHeaderConfiguration.html
 ...impl/menu/hierarchy/{HierarchyModel.java => HierarchyWizardGroupingModel.java
 src/main/org/deidentifier/arx/io/datasource/FileConfiguration.java
@@ -2733,8 +2735,7 @@ doc/gui/org/deidentifier/arx/gui/model/ModelEvent.html
 .../org/deidentifier/arx/gui/view/impl/{analyze => utility}/package-summary.html
 src/main/org/deidentifier/arx/metric/v2/DomainShareRedaction.java
 ...ntifier/arx/gui/view/impl/{explore/ViewFilter.html => define/ViewWeights.html
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogQueryResult.html
-doc/gui/org/deidentifier/arx/aggregates/package-summary.html
+.../{menu/WizardHierarchyPageLabels.html => wizard/HierarchyWizardPageFinal.html
 ...iew/impl/{analyze => utility}/class-use/ViewStatisticsContingencyHeatmap.html
 doc/gui/org/deidentifier/arx/metric/package-tree.html
 ...=> dev/org/deidentifier/arx/criteria/class-use/RiskBasedPrivacyCriterion.html
@@ -2750,12 +2751,13 @@ doc/gui/org/deidentifier/arx/gui/view/impl/utility/ViewStatistics.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/package-tree.html
 src/gui/org/deidentifier/arx/gui/view/impl/{define => common}/ViewHierarchy.java
 src/gui/org/deidentifier/arx/gui/view/impl/analyze/StatisticsView.java
+src/main/org/deidentifier/arx/metric/InformationLossWithBound.java
 ...ui/model/{Model.Perspective.html => ModelLocalRecoding.LocalRecodingMode.html
 doc/gui/org/deidentifier/arx/metric/v2/class-use/__MetricV2.html
 src/main/org/deidentifier/arx/risk/Gamma.java
 src/gui/org/deidentifier/arx/gui/view/impl/define/ViewHierarchy.java
 .../org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModelRedaction.html
-...entifier/arx/metric/v2/class-use/MetricMDNUEntropyPotentiallyPrecomputed.html
+...ntifier/arx/gui/view/impl/analyze/{PropertiesView.java => ViewProperties.java
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/ViewLattice.html
 ...mpl/common/class-use/{ComponentMultiStack.html => ComponentHierarchyMenu.html
 ...deidentifier/arx/gui => api/org/deidentifier/arx/common}/package-summary.html
@@ -2816,8 +2818,8 @@ src/gui/org/deidentifier/arx/gui/view/def/IDialog.java
 ...eidentifier/arx/gui/view/impl/{define => common}/class-use/ViewHierarchy.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogQueryResult.java
 ...olumnPageDatatypeEditingSupport.java => ColumnPageDatatypeEditingSupport.java
-.../deidentifier/arx/gui/view/impl/define/criteria/class-use/ViewKAnonymity.html
-src/gui/org/deidentifier/arx/gui/view/def/IAttachable.java
+...ialogHelpConfig.Entry.html => wizard/HierarchyWizard.HierarchyWizardView.html
+src/gui/org/deidentifier/arx/gui/view/impl/common/table/DataProviderWrapped.java
 doc/gui/org/deidentifier/arx/metric/MetricPrecisionRCE.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/DialogAuditTrail.html
 ...view/impl/define/class-use/{ViewDataDefinition.html => ViewAttributeList.html
@@ -2895,7 +2897,7 @@ src/main/org/deidentifier/arx/risk/hipaa/EMailPattern.java
 ...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
 ...gui/org/deidentifier/arx/gui/view/impl/{MainSplash.html => MainMenuGroup.html
 doc/gui/org/deidentifier/arx/metric/{MetricPrecision.html => MetricStatic.html
-...dentifier/arx/gui/view/impl/class-use/{MainPopUp.html => MainContextMenu.html
+...gui/view/impl/common/datatable/class-use/DataTableConfigLabelAccumulator.html
 src/main/org/deidentifier/arx/metric/MetricWeighted.java
 ...DataOutput.html => dev/org/deidentifier/arx/io/class-use/ImportColumnCSV.html
 ...x/gui/view/impl/analyze/{ViewInputProperties.html => ViewPropertiesInput.html
@@ -2923,10 +2925,10 @@ doc/gui/org/deidentifier/arx/gui/view/impl/common/package-frame.html
 doc/gui/org/deidentifier/arx/gui/view/impl/risk/ViewRisksAttributesTable.html
 .../deidentifier/arx/gui/view/impl/define/criteria/class-use/ViewLDiversity.html
 doc/gui/org/deidentifier/arx/ARXListener.html
-src/gui/org/deidentifier/arx/gui/worker/io/LocalRecodingData.java
+...tml => gui/org/deidentifier/arx/risk/RiskModelSampleSummary.MarketerRisk.html
 src/main/org/deidentifier/arx/common/TupleWrapper.java
 ...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
-doc/gui/org/deidentifier/arx/criteria/class-use/Inclusion.html
+...eidentifier/arx/aggregates/class-use/HierarchyBuilderGroupingBased.Group.html
 src/main/org/deidentifier/arx/metric/v2/MetricMDNMLoss.java
 doc/gui/org/deidentifier/arx/gui/model/package-summary.html
 ...mpl/common/{table/CTDataProvider.java => datatable/DataTableDataProvider.java
@@ -2954,11 +2956,11 @@ doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogDebug.html
 src/example/org/deidentifier/arx/examples/{Example19.java => Example37.java
 src/example/org/deidentifier/arx/examples/Example41.java
 ...w/impl/menu/{HierarchyWizardPageFanout.java => WizardHierarchyPageFanout.java
-src/main/org/deidentifier/arx/risk/hipaa/MatcherConfig.java
+src/main/org/deidentifier/arx/masking/AbstractDictionaryMasker.java
 doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewCodingModel.html
 ...ifier/arx/gui/view/impl/common/class-use/DataTableConfigLabelAccumulator.html
 src/main/org/deidentifier/arx/criteria/DPresence.java
-doc/gui/org/deidentifier/arx/gui/model/class-use/ModelTransformationMode.html
+...pl/common/class-use/{ComponentGSSlider.html => ComponentResponsiveLayout.html
 ...sk/{RiskModelSampleBasedUniquenessRisk.java => RiskModelSampleUniqueness.java
 ...org/deidentifier/arx/risk/class-use/HIPAAIdentifierMatch.HIPAAIdentifier.html
 src/main/org/deidentifier/arx/aggregates/StatisticsBuilder.java
@@ -3015,12 +3017,11 @@ src/gui/org/deidentifier/arx/gui/view/impl/menu/HierarchyWizardPageFanout.java
 doc/gui/org/deidentifier/arx/gui/view/package-tree.html
 doc/gui/org/deidentifier/arx/class-use/RowSet.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardPageTable.html
-src/gui/org/deidentifier/arx/gui/view/impl/importwizard/WizardImportData.java
+...ui/org/deidentifier/arx/gui/view/impl/analyze/class-use/DistributionView.html
 src/gui/org/deidentifier/arx/gui/view/impl/analyze/HeatmapRenderer.java
 doc/gui/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.html
 ...gui/org/deidentifier/arx/gui/view/impl/common/table/CTStyleConfiguration.java
 ...i/view/impl/{analyze => utility}/AnalysisContextVisualizationContingency.html
-src/gui/org/deidentifier/arx/gui/view/impl/explore/SWTLineDrawer.java
 ...ifier/arx/criteria/{RiskBasedPrivacyCriterion.java => RiskBasedCriterion.java
 .../org/deidentifier/arx/aggregates/class-use/HierarchyBuilderGroupingBased.html
 .../impl/menu/class-use/{DialogCriterionSelection.html => DialogFindReplace.html
@@ -3083,8 +3084,8 @@ doc/gui/org/deidentifier/arx/Data.DefaultData.html
 ...ew/impl/{common/class-use/Popup.html => analyze/class-use/ViewStatistics.html
 doc/gui/org/deidentifier/arx/class-use/ARXConfiguration.TClosenessCriterion.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentFilterTable.html
-doc/gui/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.Level.html
-...l/{menu/WizardHierarchyPageLabels.html => wizard/ImportWizardPageColumns.html
+... gui/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.Group.html
+doc/gui/org/deidentifier/arx/gui/view/def/IDataView.html
 ...html => gui/org/deidentifier/arx/criteria/class-use/SampleBasedCriterion.html
 src/example/org/deidentifier/arx/examples/Example2c.java
 src/main/org/deidentifier/arx/masking/AbstractDictionaryMasking.java
@@ -3101,7 +3102,7 @@ src/main/org/deidentifier/arx/framework/check/package-info.java
 ...leConfiguration.java => main/org/deidentifier/arx/risk/hipaa/IBANPattern.java
 ...deidentifier/arx/gui/view/impl/utility/class-use/ViewProperties.Property.html
 doc/gui/org/deidentifier/arx/gui/{view/impl => worker/io}/package-use.html
-doc/gui/org/deidentifier/arx/gui/view/impl/menu/WizardHierarchy.html
+doc/gui/org/deidentifier/arx/risk/UniquenessModel.html
 src/example/org/deidentifier/arx/examples/{Example37.java => Example38.java
 src/gui/org/deidentifier/arx/gui/view/impl/define/ViewAttributeList.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/class-use/ComponentStatus.html
@@ -3117,21 +3118,20 @@ src/main/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyOriginal.java
 ...lass-use/{DialogCriterionSelection.html => DialogGeneralizationSelection.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/async/package-tree.html
 src/gui/org/deidentifier/arx/gui/view/impl/risk/LayoutRisksBottom.java
-...org/deidentifier/arx/aggregates/class-use/HierarchyBuilderRedactionBased.html
+doc/gui/org/deidentifier/arx/ARXConfiguration.TClosenessCriterion.html
 .../gui/model/class-use/{ModelConfiguration.html => ModelRiskBasedCriterion.html
 ...arx/gui/view/impl/{utility => common/async}/AnalysisContextVisualization.html
-doc/gui/org/deidentifier/arx/criteria/RecursiveCLDiversity.html
+doc/gui/org/deidentifier/arx/aggregates/AggregateFunction.GenericConstant.html
 ...deidentifier/arx/gui/view/impl/{analyze => utility}/ViewPropertiesOutput.java
 ...main/org/deidentifier/arx/risk/{hipaa/Match.java => HIPAAIdentifierMatch.java
 src/gui/org/deidentifier/arx/gui/model/ModelLocalRecodingResult.java
 ...arx/io/datasource/{IDataSourceCanContainHeader.java => ICanContainHeader.java
-doc/gui/org/deidentifier/arx/gui/view/def/IDataTable.html
+...ntifier/arx/io/datasource/{DataSourceConfiguration.java => Configuration.java
 ...i/org/deidentifier/arx/aggregates/class-use/AggregateFunction.GenericSet.html
-doc/gui/org/deidentifier/arx/gui/view/def/class-use/IMainWindow.html
+...ui/org/deidentifier/arx/io/{CSVAbstractInput.html => ImportConfiguration.html
 src/main/org/deidentifier/arx/metric/MetricStatic.java
 doc/gui/org/deidentifier/arx/metric/class-use/MetricCombined.html
 ...w/impl/{define/ViewSubsetDefinition.html => analyze/ViewOutputProperties.html
-doc/gui/org/deidentifier/arx/metric/v2/DomainShareInterval.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardEditorMenu.java
 ...ain/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyOriginalNormalized.java
 .../org/deidentifier/arx/gui/view/impl/common/datatable/DataTableFillLayout.java
@@ -3146,7 +3146,6 @@ src/gui/org/deidentifier/arx/gui/view/impl/common/ClipboardHandlerTable.java
 doc/gui/org/deidentifier/arx/criteria/class-use/DPresence.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/async/AnalysisContext.java
 ...ntifier/arx/gui/view/impl/wizard/class-use/HierarchyWizardEditorFunction.html
-doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewAttributeList.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardModelOrder.java
 doc/gui/org/deidentifier/arx/gui/worker/io/Vocabulary_V2.html
 ...org/deidentifier/arx/aggregates/class-use/StatisticsBuilderInterruptible.html
@@ -3183,10 +3182,9 @@ doc/gui/org/deidentifier/arx/gui/SWTUtil.html
 doc/gui/org/deidentifier/arx/metric/MetricUserDefinedWeighted.html
 src/gui/org/deidentifier/arx/gui/view/impl/explore/ViewList.java
 src/main/org/deidentifier/arx/io/IImportColumnIndexed.java
-...entifier/arx/aggregates/class-use/AggregateFunction.GenericSetOfPrefixes.html
+src/main/org/deidentifier/arx/criteria/KAnonymity.java
 doc/gui/org/deidentifier/arx/gui/model/class-use/ModelRiskBasedCriterion.html
 ...er/arx/gui/view/impl/common/datatable/DataTableColumnHeaderConfiguration.java
-doc/gui/org/deidentifier/arx/criteria/package-frame.html
 ...r/arx/gui/view/impl/{analyze => utility}/ViewStatisticsDistributionTable.java
 ...delSampleUniqueness.html => dev/org/deidentifier/arx/common/TupleWrapper.html
 ...ui/org/deidentifier/arx/gui/view/impl/common/DataTableHandleDataProvider.java
@@ -3208,8 +3206,8 @@ src/main/org/deidentifier/arx/algorithm/FLASHNodeTrigger.java
 .../ImplicitPrivacyCriterion.html => metric/InformationLossDefaultWithBound.html
 doc/gui/org/deidentifier/arx/criteria/class-use/RecursiveCLDiversity.html
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardPagePreview.java
-src/main/org/deidentifier/arx/framework/check/history/MRUCacheEntryMetadata.java
 ...ntifier/arx/gui/view/impl/common/{ => datatable}/DataTableGridLayerStack.java
+doc/gui/org/deidentifier/arx/risk/EquivalenceClassModel.html
 ...ui/org/deidentifier/arx/gui/view/impl/risk/class-use/LayoutRisksAbstract.html
 ...arx/{metric/class-use/MetricStatic.html => common/class-use/TupleWrapper.html
 doc/gui/org/deidentifier/arx/gui/view/impl/explore/NodeFilterView.html
@@ -3220,6 +3218,7 @@ doc/gui/org/deidentifier/arx/AttributeType.MicroAggregationFunction.html
 ...rker/io/class-use/Vocabulary_V1.html => view/impl/class-use/AbstractMenu.html
 ...tifier/arx/gui/view/impl/analyze/{ViewStatistics.java => AnalysisContext.java
 doc/gui/org/deidentifier/arx/metric/{MetricPrecision.html => MetricNDS.html
+...entifier/arx/metric/v2/class-use/MetricMDNUEntropyPotentiallyPrecomputed.html
 ...rx/gui/view/impl/define/class-use/{ViewHierarchy.html => ViewCodingModel.html
 ...del/ModelImplicitCriterion.html => metric/v2/ILMultiDimensionalWithBound.html
 ...rx/gui/view/impl/menu/class-use/{DialogHelp.html => DialogComboSelection.html
@@ -3265,7 +3264,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/common/datatable/package-use.html
 ...efine/class-use/{ViewCriterionDefinition.html => ViewCriterionKAnonymity.html
 doc/gui/org/deidentifier/arx/gui/view/impl/class-use/MainSplash.html
 ...ui/org/deidentifier/arx/gui/view/impl/utility/AnalysisContextContingency.java
-src/gui/org/deidentifier/arx/gui/view/impl/menu/QueryDialog.java
+doc/gui/org/deidentifier/arx/ARXLattice.Access.html
 doc/gui/org/deidentifier/arx/gui/view/{ => impl}/Splash.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/WizardHierarchyModel.java
 ...gui/view/impl/analyze/{ViewOutputProperties.html => ViewPropertiesOutput.html
@@ -3313,8 +3312,7 @@ doc/gui/org/deidentifier/arx/metric/v2/MetricMDNMLossPrecomputed.html
 src/gui/org/deidentifier/arx/gui/view/impl/explore/ViewTiles.java
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogCriterionSelection.html
 ...dentifier/arx/gui/view/impl/explore/class-use/{ViewList.html => Gradient.html
-...impl/define/{ViewAttributeDefinition.html => ViewAttributeTransformation.html
-...g/deidentifier/arx/gui/view/impl/menu/EditorCriterionDifferentialPrivacy.java
+src/main/org/deidentifier/arx/masking/ConstantShiftDecimalMasker.java
 src/main/org/deidentifier/arx/io/datasource/Configuration.java
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/HierarchyWizardPageFanout.html
 src/main/org/deidentifier/arx/risk/RiskEstimateBuilder.java
@@ -3353,7 +3351,7 @@ doc/gui/org/deidentifier/arx/class-use/DataDefinition.html
 src/main/org/deidentifier/arx/masking/ConstantShiftDateMasker.java
 ...k/RiskModelSampleUniqueness.html => exceptions/RollbackRequiredException.html
 ...x/gui/view/impl/{define/ViewCodingModel.java => common/ComponentGSSlider.java
-src/gui/org/deidentifier/arx/gui/view/def/IDataTable.java
+doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewAttributeList.html
 ...fier/arx/gui/view/impl/common/ComponentTableHeaderConfigurationSpanEqual.java
 ...gui/org/deidentifier/arx/aggregates/class-use/HierarchyBuilderOrderBased.html
 doc/gui/org/deidentifier/arx/criteria/package-summary.html
@@ -3378,6 +3376,7 @@ doc/gui/org/deidentifier/arx/ARXLattice.ARXNode.html
 doc/gui/org/deidentifier/arx/gui/view/impl/class-use/MainMenuItem.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/ViewSubsetDefinition.html
 doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogHelpConfig.html
+.../deidentifier/arx/gui/view/impl/define/criteria/class-use/ViewKAnonymity.html
 doc/api/org/deidentifier/arx/metric/v2/DomainShare.html
 ...ml => gui/org/deidentifier/arx/metric/v2/class-use/ILMultiDimensionalSum.html
 src/example/org/deidentifier/arx/examples/{Example2b.java => Example2d.java
@@ -3390,7 +3389,6 @@ doc/gui/org/deidentifier/arx/gui/view/impl/menu/DialogProject.html
 .../gui/view/impl/{menu/hierarchy => wizards}/HierarchyWizardModelIntervals.java
 src/main/org/deidentifier/arx/io/importdata/Column.java
 src/gui/org/deidentifier/arx/gui/view/impl/menu/QueryTokenizer.java
-...use/ViewCriterion.html => analyze/class-use/AnalysisContextVisualization.html
 ...i/org/deidentifier/arx/gui/view/impl/define/{criteria => }/ViewCriterion.html
 ...html => gui/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
 src/main/org/deidentifier/arx/masking/MatchAndReplaceStringMasker.java
@@ -3419,7 +3417,6 @@ src/example/org/deidentifier/arx/examples/Example9.java
 src/main/org/deidentifier/arx/metric/InformationLossDefault.java
 ...ut.html => gui/org/deidentifier/arx/io/class-use/ImportConfigurationFile.html
 doc/gui/org/deidentifier/arx/io/class-use/ImportConfigurationJDBC.html
-...tml => gui/org/deidentifier/arx/risk/RiskModelSampleSummary.MarketerRisk.html
 doc/gui/org/deidentifier/arx/io/ImportColumnCSV.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardPageFinal.html
 doc/gui/org/deidentifier/arx/gui/worker/WorkerLoadXMLHandler.html
@@ -3459,6 +3456,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/common/DataView.java
 src/main/org/deidentifier/arx/io/datasource/column/INamedColumn.java
 doc/gui/help-doc.html
 .../view/impl/{common/ViewDataOutput.html => define/ViewCriterionKAnonymity.html
+...g.Mode.html => dev/org/deidentifier/arx/aggregates/HierarchyBuilder.Type.html
 src/example/org/deidentifier/arx/examples/Example10.java
 ...pl/{explore/LayoutExplore.html => wizard/ARXWizardDialog.ARXWizardButton.html
 ...rg/deidentifier/arx/gui/view/impl/menu/EditorCriterionDDisclosurePrivacy.java
@@ -3471,7 +3469,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/common/table/class-use/LayerBody.html
 ...er/arx/io/CSVDataOutput.html => gui/org/deidentifier/arx/io/ImportColumn.html
 ...deidentifier/arx/gui/view/impl/common/{datatable => }/DataTableGridLayer.java
 src/gui/org/deidentifier/arx/gui/view/impl/analyze/ViewPropertiesOutput.java
-...arx/gui/view/impl/{utility => common/async}/AnalysisContextVisualization.java
+...org/deidentifier/arx/gui/view/impl/utility/ViewStatisticsRegressionInput.java
 src/gui/org/deidentifier/arx/gui/view/impl/risk/ViewRisksPopulationModel.java
 doc/gui/org/deidentifier/arx/metric/v2/ILMultiDimensionalSum.html
 ...org/deidentifier/arx/gui/view/impl/menu/class-use/DialogHelpConfig.Entry.html
@@ -3481,8 +3479,9 @@ src/main/org/deidentifier/arx/io/CSVUtil.java
 ...iewCriterionLDiversity.html => utility/class-use/LayoutUtilityStatistics.html
 ...ultiClassLogisticRegression.java => MultiClassAdaptiveLogisticRegression.java
 doc/gui/org/deidentifier/arx/DataHandleSubset.html
+...er/arx/gui/Update.html => dev/org/deidentifier/arx/common/WrappedInteger.html
 doc/gui/org/deidentifier/arx/ARXConfiguration.ARXConfigurationInternal.html
-...deidentifier/arx/gui/view/impl/menu/{ProjectDialog.java => DialogProject.java
+...i/org/deidentifier/arx/gui/view/impl/wizards/HierarchyWizardEditorLayout.java
 src/main/org/deidentifier/arx/hierarchy/OrderedHierarchyBuilder.java
 ...entifier/arx/gui/view/impl/menu/{HierarchyWizard.java => WizardHierarchy.java
 src/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardPageOrder.java
@@ -3493,14 +3492,14 @@ src/example/org/deidentifier/arx/examples/{Example9.java => Example41.java
 ...mpl/risk/{ViewRisksBasicEstimates.java => ViewRisksReIdentificationTable.java
 src/main/org/deidentifier/arx/framework/lattice/NodeTriggerConstant.java
 ...ivalenceClasses.html => gui/org/deidentifier/arx/risk/RiskModelHistogram.html
-...rchy/{HierarchyWizardModelInterval.java => HierarchyWizardModelIntervals.java
+...iew/impl/define/{CriterionDefinitionView.java => ViewCriterionDefinition.java
 ...isk/{ViewRisksPlotUniquenessEstimates.java => ViewRisksPopulationUniques.java
 src/main/org/deidentifier/arx/{risk => common}/Groupify.java
 doc/gui/org/deidentifier/arx/gui/view/impl/common/Popup.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentStatus.html
 ...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/package-summary.html
-...fier/arx/gui/view/impl/{wizards => wizard}/HierarchyWizardEditorFunction.java
+...ui/org/deidentifier/arx/gui/view/impl/define/ViewAttributeTransformation.java
 doc/gui/org/deidentifier/arx/class-use/AttributeType.Hierarchy.html
 src/example/org/deidentifier/arx/examples/Example25.java
 doc/gui/org/deidentifier/arx/class-use/DataType.ARXOrderedString.html
@@ -3512,7 +3511,6 @@ src/gui/org/deidentifier/arx/gui/view/impl/MainMenuGroup.java
 doc/gui/org/deidentifier/arx/metric/class-use/MetricUserDefinedWeighted.html
 doc/gui/org/deidentifier/arx/gui/view/impl/risk/package-tree.html
 ...identifier/arx/metric/{MetricPrecision.html => MetricUserDefinedWeighted.html
-src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentRiskSlider.java
 src/main/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyPrecomputed.java
 .../deidentifier/arx/metric/v2/{DomainShare.java => DomainShareMaterialized.java
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardModelColumn.html
@@ -3553,6 +3551,7 @@ src/main/org/deidentifier/arx/io/IImportColumnNamed.java
 doc/gui/org/deidentifier/arx/gui/view/impl/analyze/ViewDensity.html
 ...ui/view/impl/{importwizard => wizard/importdata}/WizardImportPreviewPage.java
 ...eidentifier/arx/gui/view/impl/menu/hierarchy/HierarchyWizardPageOrdering.java
+src/gui/org/deidentifier/arx/gui/worker/io/LocalRecodingData.java
 .../view/impl/{explore/ViewProperties.html => risk/ViewRisksPopulationModel.html
 ...org/deidentifier/arx/metric/class-use/{MetricHeight.html => MetricStatic.html
 ...ommon/{table/LayerColumnFillLayout.java => datatable/DataTableFillLayout.java
@@ -3579,8 +3578,8 @@ doc/gui/org/deidentifier/arx/gui/view/impl/common/table/class-use/CTLayer.html
 ...alysisContextVisualizationContingency.html => AnalysisContextContingency.html
 ...> gui/org/deidentifier/arx/class-use/DataHandleInternal.InterruptHandler.html
 ...ntifier/arx/aggregates/HierarchyBuilderOrderBased.SerializableComparator.html
-src/main/org/deidentifier/arx/io/ImportAdapterCSV.java
-src/gui/org/deidentifier/arx/gui/view/def/{ILayout.java => IDialog.java
+src/gui/org/deidentifier/arx/gui/view/def/IDataTable.java
+...efine/class-use/{ViewCriterionDefinition.html => ViewCriterionLDiversity.html
 doc/gui/org/deidentifier/arx/gui/view/impl/define/class-use/ViewHierarchy.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/DialogAbout.java
 src/gui/org/deidentifier/arx/gui/view/impl/common/DataTableBodyLayerStack.java
@@ -3592,10 +3591,10 @@ src/gui/org/deidentifier/arx/gui/worker/WorkerLoadXMLHandler.java
 doc/gui/org/deidentifier/arx/gui/{Main.html => DebugResourceLeaks.html
 ...rg/deidentifier/arx/gui/view/impl/wizard/class-use/ImportWizardPageExcel.html
 src/main/org/deidentifier/arx/metric/v2/DomainShareMaterialized.java
-... gui/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.Group.html
+doc/gui/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.Level.html
 ...dentifier/arx/gui/view/impl/menu/hierarchy/HierarchyWizardRedactionModel.java
 ...va => gui/org/deidentifier/arx/gui/view/impl/common/ComponentTableLayout.java
-doc/gui/org/deidentifier/arx/risk/UniquenessModel.html
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/WizardHierarchy.html
 src/main/org/deidentifier/arx/risk/RiskModelHistogram.java
 ...ess.html => dev/org/deidentifier/arx/risk/class-use/RiskModelSampleBased.html
 ...ew/impl/{explore/ViewClipboard.html => wizard/HierarchyWizardEditorRange.html
@@ -3609,7 +3608,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/wizard/ImportWizardPageSource.java
 .../deidentifier/arx/gui/view/impl/common/class-use/DataTableSelectionLayer.html
 doc/gui/org/deidentifier/arx/gui/view/impl/wizard/HierarchyWizardEditorMenu.html
 src/example/org/deidentifier/arx/examples/Example36.java
-src/main/org/deidentifier/arx/criteria/KAnonymity.java
+...entifier/arx/aggregates/class-use/AggregateFunction.GenericSetOfPrefixes.html
 ...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
 ...identifier/arx/aggregates/AggregateFunction.GenericGeometricMeanOfBounds.html
 src/example/org/deidentifier/arx/examples/Example23.java
@@ -3629,7 +3628,7 @@ doc/gui/org/deidentifier/arx/aggregates/package-use.html
 src/gui/org/deidentifier/arx/gui/worker/WorkerSave.java
 ...tric/v2/class-use/{MetricSDDiscernability.html => MetricSDNMKLDivergence.html
 ...g/deidentifier/arx/gui/view/impl/wizard/class-use/ImportWizardPageSource.html
-src/main/org/deidentifier/arx/risk/hipaa/{Identifier.java => Category.java
+...impl/define/{ViewAttributeDefinition.html => ViewAttributeTransformation.html
 src/main/org/deidentifier/arx/risk/RiskModelPopulation.java
 src/main/org/deidentifier/arx/Data.java
 src/gui/org/deidentifier/arx/gui/view/impl/define/criteria/TClosenessView.java
@@ -3644,7 +3643,7 @@ src/gui/org/deidentifier/arx/gui/view/impl/define/criteria/ViewTCloseness.java
 ...gui/org/deidentifier/arx/class-use/DataHandleStatistics.InterruptHandler.html
 src/gui/org/deidentifier/arx/gui/view/impl/define/DataDefinitionView.java
 ...ui/org/deidentifier/arx/aggregates/AggregateFunction.GenericCommonPrefix.html
-...i/org/deidentifier/arx/AttributeType.MicroAggregationFunctionDescription.html
+...deidentifier/arx/risk/{hipaa/MatcherConfig.java => HIPAAIdentifierConfig.java
 ...entifier/arx/risk/{hipaa/ValueMatcher.java => HIPAAMatcherAttributeValue.java
 src/main/org/deidentifier/arx/io/ImportConfigurationCSV.java
 doc/gui/org/deidentifier/arx/aggregates/HierarchyBuilderIntervalBased.html
@@ -3654,14 +3653,15 @@ src/main/org/deidentifier/arx/metric/v2/MetricMDPrecision.java
 ...ui/org/deidentifier/arx/gui/view/impl/wizard/class-use/ImportWizardModel.html
 ...i/org/deidentifier/arx/gui/view/impl/risk/ViewRisksClassDistributionPlot.java
 ...gregates/HierarchyBuilderGroupingBased.Group.html => risk/Groupify.Group.html
+doc/gui/org/deidentifier/arx/gui/model/class-use/ModelExplicitCriterion.html
 ...put.html => gui/org/deidentifier/arx/io/class-use/ImportConfigurationCSV.html
 src/main/org/deidentifier/arx/risk/HIPAAIdentifierConfig.java
 .../{common/datatable/package-use.html => analyze/class-use/AnalysisContext.html
 doc/gui/org/deidentifier/arx/gui/view/impl/common/DataTableDecorator.html
 doc/gui/org/deidentifier/arx/gui/worker/io/class-use/XMLHandler.html
 src/gui/org/deidentifier/arx/gui/view/impl/menu/WizardHierarchyPageFanout.java
-doc/gui/org/deidentifier/arx/risk/package-use.html
-...deidentifier/arx/class-use/DataGeneralizationScheme.GeneralizationDegree.html
+...identifier/arx/gui/view/impl/analyze/ViewStatisticsDistributionHistogram.java
+doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentRiskThresholds.html
 src/gui/org/deidentifier/arx/gui/view/impl/define/ViewPrivacyCriteria.java
 ...l/{define/ViewCriterionLDiversity.java => menu/EditorCriterionLDiversity.java
 ...ui/org/deidentifier/arx/gui/view/impl/common/table/LayerColumnFillLayout.html
@@ -3676,7 +3676,7 @@ doc/gui/org/deidentifier/arx/gui/view/impl/common/ComponentStatusLabel.html
 src/gui/org/deidentifier/arx/gui/view/impl/analyze/DensityData.java
 ...er/arx/gui/view/impl/{analyze => utility}/ViewStatisticsContingencyTable.html
 .../arx/gui/model/{ModelLDiversityCriterion.html => ModelRiskBasedCriterion.html
-src/gui/org/deidentifier/arx/gui/view/impl/analyze/Analysis.java
+doc/gui/org/deidentifier/arx/gui/view/impl/menu/class-use/SeparatorDialog.html
 src/gui/org/deidentifier/arx/gui/view/impl/common/ComponentStatusLabel.java
 src/main/org/deidentifier/arx/metric/Metric.java
 doc/gui/org/deidentifier/arx/risk/package-tree.html

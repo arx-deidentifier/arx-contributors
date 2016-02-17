@@ -1,0 +1,22 @@
+Statistical information for the repository 'arx' was gathered on 2016/02/17.
+The following historical commit information, by author, was found:
+
+Author                     Commits    Insertions      Deletions    % of changes
+ARX                              1             2              2            0.00
+Fabian Prasser                1762        159216          98433           76.73
+Florian Kohlmayer              441         39720          26348           19.68
+Igor Vujosevic                   1            69              1            0.02
+Karol Babioch                  176          8731           3211            3.56
+Raffael Bild                     1             9             28            0.01
+Shu                              1            14              4            0.01
+
+Below are the number of rows from each author that have survived and are still
+intact in the current revision:
+
+Author                     Rows      Stability          Age       % in comments
+Fabian Prasser            81087           50.9         15.0               26.86
+Florian Kohlmayer         25096           63.2         13.9               65.35
+Igor Vujosevic               35           50.7         15.8               22.86
+Karol Babioch              3545           40.6         22.1               38.65
+Raffael Bild                  1           11.1         13.8                0.00
+Shu                           9           64.3         11.9               33.33
