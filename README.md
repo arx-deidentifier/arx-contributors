@@ -8,8 +8,8 @@ The current statistics have been generated at 02/17/2016.
 
 [Statistics for ARX'S Privacy Engine](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-main.html)
 
-| Author                     | Commits    | Insertions      | Deletions    | % of changes |
-|----------------------------| -----------| ----------------| -------------| -------------|
+| Author                      | Commits    | Insertions      | Deletions    | % of changes |
+|:----------------------------|:-----------|:----------------|:-------------|:-------------|
 | Fabian Prasser             |     846    |      71308      |     43391    |        77.65 |
 | Florian Kohlmayer          |     253    |      17780      |     12181    |        20.28 |
 | Karol Babioch              |      39    |       2333      |       675    |         2.04 |
