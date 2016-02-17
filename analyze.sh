@@ -9,3 +9,9 @@ git config --global diff.renameLimit 999999
 ./gitinspector/gitinspector.py --format=html --since=2013-05-10 --grading=true --metrics=true --file-types=java --hard -x example -x main -x gui -w arx/ > statistics-test.html
 rm -rf ./arx
 rm -rf ./gitinspector
+git add statistics-main.html
+git add statistics-gui.html
+git add statistics-example.html
+git add statistics-test.html
+git commit -m "Update"
+git push origin master
