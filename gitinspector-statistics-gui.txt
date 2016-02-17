@@ -1,0 +1,841 @@
+Statistical information for the repository 'arx' was gathered on 2016/02/17.
+The following historical commit information, by author, was found:
+
+Author                     Commits    Insertions      Deletions    % of changes
+Fabian Prasser                 955         78639          49250           80.70
+Florian Kohlmayer              150         14350           7634           13.87
+Karol Babioch                  146          6179           2405            5.42
+Shu                              1            14              4            0.01
+
+Below are the number of rows from each author that have survived and are still
+intact in the current revision:
+
+Author                     Rows      Stability          Age       % in comments
+Fabian Prasser            41722           53.1         67.0               22.29
+Florian Kohlmayer          9938           69.3         57.4               72.57
+Karol Babioch              2342           37.9         95.3               34.93
+Shu                           9           64.3         50.6               33.33
+
+The following files were excluded from the statistics due to the specified
+exclusion patterns:
+src/test/org/deidentifier/arx/test/TestDataStatistics.java
+src/main/org/deidentifier/arx/masking/GenerateRandomDateMasker.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.java
+src/main/org/deidentifier/arx/framework/check/history/History.java
+src/example/org/deidentifier/arx/examples/Example19.java
+src/test/org/deidentifier/arx/test/package-info.java
+src/main/org/deidentifier/arx/risk/hipaa/ZIPPattern.java
+src/main/org/deidentifier/arx/risk/hipaa/ValueMatcher.java
+src/main/org/deidentifier/arx/metric/MetricCombined.java
+src/main/org/deidentifier/arx/DataHandle.java
+src/main/org/deidentifier/arx/algorithm/AbstractAlgorithm.java
+.../MetricHeight.java => gui/org/deidentifier/arx/gui/worker/io/FileBuilder.java
+.../arx/risk/{AbstractAlgorithmNewtonRaphson.java => AlgorithmNewtonRaphson.java
+src/main/org/deidentifier/arx/aggregates/HierarchyBuilderOrderBased.java
+src/example/org/deidentifier/arx/examples/Example28.java
+src/main/org/deidentifier/arx/framework/check/groupify/HashGroupify.java
+src/main/org/deidentifier/arx/risk/AbstractAlgorithmNewtonRaphson.java
+src/main/org/deidentifier/arx/risk/RiskModelAttributes.java
+src/main/org/deidentifier/arx/criteria/TCloseness.java
+src/test/org/deidentifier/arx/test/TestExecutionTimeAbstract.java
+src/main/org/deidentifier/arx/risk/{NewtonSNB.java => AlgorithmNewtonSNB.java
+src/main/org/deidentifier/arx/ARXListener.java
+src/example/org/deidentifier/arx/examples/Example2b.java
+src/main/org/deidentifier/arx/risk/RiskModelSample.java
+src/main/org/deidentifier/arx/risk/RiskModelPopulationBased.java
+src/test/org/deidentifier/arx/test/TestUtilityMetricsPrecomputation.java
+src/test/org/deidentifier/arx/test/AbstractTestUtilityMetrics.java
+src/main/org/deidentifier/arx/framework/check/groupify/package-info.java
+...entifier/arx/io/{datasource/column/ExcelColumn.java => ImportColumnExcel.java
+src/test/org/deidentifier/arx/test/TestDataHandle.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmTwoPhase.java
+...tml => dev/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
+src/main/org/deidentifier/arx/framework/check/history/MRUCacheEntry.java
+src/main/org/deidentifier/arx/metric/v2/AbstractILMultiDimensionalReduced.java
+...est/{TestUtilityEstimationAbstract.java => AbstractTestUtilityEstimation.java
+src/example/org/deidentifier/arx/examples/Example.java
+src/main/org/deidentifier/arx/io/datasource/column/JdbcColumn.java
+src/main/org/deidentifier/arx/risk/hipaa/Label.java
+src/main/org/deidentifier/arx/risk/RiskModelPopulationBasedUniquenessRisk.java
+...dentifier/arx/io/{importdata/JdbcImportAdapter.java => ImportAdapterJDBC.java
+src/test/org/deidentifier/arx/test/TestExecutionTimeKAnonymity.java
+src/main/org/deidentifier/arx/metric/v2/ILMultiDimensionalRank.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer06.java
+...rg/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/main/org/deidentifier/arx/io/{ => datasource}/CSVFileConfiguration.java
+...g/deidentifier/arx/framework/check/{package-info.java => TransformedData.java
+src/main/org/deidentifier/arx/criteria/DistinctLDiversity.java
+src/example/org/deidentifier/arx/examples/Example14.java
+...org/deidentifier/arx/framework/lattice/{package-info.java => NodeTrigger.java
+...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
+src/main/org/deidentifier/arx/framework/Configuration.java
+...er/arx/metric/v2/{MetricMDNMNormalizedDomainShare.html => MetricMDNMLoss.html
+src/example/org/deidentifier/arx/examples/Example39.java
+src/main/org/deidentifier/arx/masking/AbstractInstanceMasker.java
+src/main/org/deidentifier/arx/metric/{MetricNDS.java => MetricNDS_1.java
+src/main/org/deidentifier/arx/metric/v2/IO.java
+src/example/org/deidentifier/arx/examples/{Example31.java => Example32.java
+src/main/org/deidentifier/arx/masking/AbstractReplaceInstMasker.java
+...rg/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainSharePrecomputed.java
+src/example/org/deidentifier/arx/examples/Example32.java
+src/test/org/deidentifier/arx/test/TestMetricsV2.java
+...arx/framework/check/history/{MRUCacheEntry.java => MRUCacheEntryMetadata.java
+src/main/org/deidentifier/arx/framework/data/package-info.java
+src/main/org/deidentifier/arx/metric/v2/ILSingleDimensional.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNUNMNormalizedEntropy.java
+src/main/org/deidentifier/arx/masking/IInstanceMasker.java
+src/example/org/deidentifier/arx/examples/{Example9.java => Example12.java
+...deidentifier/arx/metric/{MetricPrecision.java => MetricPrecisionWeighted.java
+data/test-import.csv
+src/main/org/deidentifier/arx/framework/lattice/SolutionSpace.java
+...dentifier/arx/risk/{RiskModelPopulationBased.java => RiskModelPopulation.java
+.../deidentifier/arx/metric/v2/{DomainShare.html => DomainShareMaterialized.html
+src/test/org/deidentifier/arx/test/TestClassificationLDiversity.java
+doc/api/org/deidentifier/arx/metric/v2/DomainShareRedaction.html
+doc/gui/org/deidentifier/arx/metric/v2/DomainShare.html
+src/example/org/deidentifier/arx/examples/{Example9.java => Example10.java
+src/main/org/deidentifier/arx/criteria/EDDifferentialPrivacy.java
+src/main/org/deidentifier/arx/io/importdata/ICanContainHeader.java
+src/example/org/deidentifier/arx/examples/Example18.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNUEntropyPrecomputed.java
+src/main/org/deidentifier/arx/{framework/check => aggregates}/package-info.java
+src/main/org/deidentifier/arx/io/ImportConfiguration.java
+...fo.java => gui/org/deidentifier/arx/gui/view/impl/common/table/CTContext.java
+...r/arx/io/{datasource/CSVFileConfiguration.java => ImportConfigurationCSV.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorConstantShiftDecimal.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer12.java
+src/main/org/deidentifier/arx/ARXAdapter.java
+src/main/org/deidentifier/arx/io/{importdata => }/DataSourceConfiguration.java
+src/main/org/deidentifier/arx/DataHandleInternal.java
+src/main/org/deidentifier/arx/metric/v2/MetricSDDiscernability.java
+.../io/{datasource/ICanContainHeader.java => IImportConfigurationWithHeader.java
+src/main/org/deidentifier/arx/aggregates/AggregateFunction.java
+src/main/org/deidentifier/arx/ARXSolverConfiguration.java
+src/main/org/deidentifier/arx/aggregates/StatisticsContingencyTable.java
+src/main/org/deidentifier/arx/DataRegistry.java
+src/main/org/deidentifier/arx/criteria/RiskBasedThresholdPopulationUniques.java
+...entifier/arx/aggregates/classifiers/MultiClassAdaptiveLogisticRegression.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer08.java
+src/main/org/deidentifier/arx/framework/lattice/Node.java
+...er/arx/metric/v2/{MetricMDNMNormalizedDomainShare.html => MetricMDNMLoss.html
+src/main/org/deidentifier/arx/masking/package-info.java
+src/main/org/deidentifier/arx/algorithm/MinMaxPriorityQueue.java
+src/main/org/deidentifier/arx/io/IDataSourceCanContainHeader.java
+doc/api/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
+src/main/org/deidentifier/arx/io/{importdata => }/ICanContainHeader.java
+src/main/org/deidentifier/arx/io/datasource/column/Column.java
+.../deidentifier/arx/metric/{MetricHeight.java => v2/MetricSDDiscernability.java
+src/main/org/deidentifier/arx/metric/v2/ILMultiDimensionalGeometricMean.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer14.java
+...x/io/{datasource/ExcelFileConfiguration.java => ImportConfigurationExcel.java
+src/main/org/deidentifier/arx/ARXPopulationModel.java
+...identifier/arx/io/{ICanContainHeader.java => IDataSourceCanContainHeader.java
+src/main/org/deidentifier/arx/io/CSVHierarchyInput.java
+src/main/org/deidentifier/arx/framework/lattice/Lattice.java
+src/example/org/deidentifier/arx/examples/Example7.java
+...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
+src/main/org/deidentifier/arx/risk/hipaa/Warning.java
+...g/deidentifier/arx/framework/lattice/{NodeAction.java => DependentAction.java
+...def/IDialog.java => main/org/deidentifier/arx/io/datasource/INamedColumn.java
+...ntifier/arx/test/TestDataTransformationsFromFileTClosenessWithStatistics.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmImpl.java
+...g/deidentifier/arx/aggregates/classifiers/MultiClassMultiLayerPerceptron.java
+...tifier/arx/metric/v2/MetricMDNUNMNormalizedEntropyPotentiallyPrecomputed.java
+src/main/org/deidentifier/arx/metric/MetricNMPrecision.java
+...rg/deidentifier/arx/metric/{MetricDefaultWeighted.java => MetricWeighted.java
+src/test/org/deidentifier/arx/test/TestAnonymizationAbstract.java
+src/main/org/deidentifier/arx/risk/hipaa/URLPattern.java
+src/main/org/deidentifier/arx/metric/MetricWeighted.java
+data/{test.csv => test_dirty.csv
+src/main/org/deidentifier/arx/metric/v2/__MetricV2.java
+...identifier/arx/gui/view/impl/common/ComponentTableAlignmentConfiguration.java
+doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
+src/example/org/deidentifier/arx/examples/Example2c.java
+src/main/org/deidentifier/arx/criteria/SampleUniqueness.java
+src/test/org/deidentifier/arx/test/TestRiskMetrics.java
+src/main/org/deidentifier/arx/metric/BoundInformationLoss.java
+src/main/org/deidentifier/arx/criteria/RecursiveCLDiversity.java
+src/example/org/deidentifier/arx/examples/{Example9.java => Example41.java
+src/main/org/deidentifier/arx/io/datasource/column/IIndexedColumn.java
+...entifier/arx/risk/{hipaa/HeaderMatcher.java => HIPAAMatcherAttributeName.java
+src/main/org/deidentifier/arx/io/ImportColumnIndexed.java
+src/main/org/deidentifier/arx/UtilityEstimator.java
+...ifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/example/org/deidentifier/arx/examples/{Example1.java => Example14.java
+src/main/org/deidentifier/arx/metric/InformationLossDefault.java
+src/main/org/deidentifier/arx/metric/MetricHeight.java
+src/main/org/deidentifier/arx/risk/hipaa/Match.java
+.../deidentifier/arx/test/{TestUtilityMetrics.java => TestUtilityEstimation.java
+src/main/org/deidentifier/arx/metric/MetricNMEntropy.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNMLoss.java
+...tifier/arx/algorithm/{FLASHConfiguration.java => FLASHPhaseConfiguration.java
+src/main/org/deidentifier/arx/masking/RandomShiftDateMasker.java
+data/test_anonymized.csv
+...ier/arx/io/{importdata/ExcelFileImportAdapter.java => ImportAdapterExcel.java
+src/main/org/deidentifier/arx/risk/AbstractModelPopulation.java
+...ntifier/arx/io/importdata/{CSVImportAdapter.java => CSVFileImportAdapter.java
+src/test/org/deidentifier/arx/test/TestUtilityMetricsPrecomputationAbstract.java
+src/main/org/deidentifier/arx/risk/DisclosureRisk.java
+src/main/org/deidentifier/arx/io/importdata/DataSourceConfiguration.java
+src/test/org/deidentifier/arx/test/TestAnonymization.java
+src/example/org/deidentifier/arx/examples/Example35.java
+src/main/org/deidentifier/arx/metric/v2/CardinalitiesGeneric.java
+src/test/org/deidentifier/arx/test/TestAnonymizationLDiversity.java
+src/main/org/deidentifier/arx/risk/resources/us/labels.properties
+...er/arx/metric/v2/{MetricMDNMNormalizedDomainShare.java => MetricMDNMLoss.java
+src/example/org/deidentifier/arx/examples/{Example19.java => Example37.java
+...iversity.java => TestDataTransformationsFromFileLDiversityWithStatistics.java
+src/main/org/deidentifier/arx/metric/InformationLossRCE.java
+...n/org/deidentifier/arx/framework/check/distribution/DistributionIterator.java
+...tml => gui/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
+...view/def/IDialog.java => main/org/deidentifier/arx/common/WrappedInteger.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer07.java
+src/example/org/deidentifier/arx/examples/{Example8.java => Example13.java
+src/test/org/deidentifier/arx/test/AbstractTest.java
+...ew/def/IDialog.java => main/org/deidentifier/arx/risk/hipaa/ValuePattern.java
+src/example/org/deidentifier/arx/examples/Example41.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNMLossPrecomputed.java
+src/main/org/deidentifier/arx/io/Column.java
+...ifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/main/org/deidentifier/arx/masking/AbstractDictionaryMasker.java
+src/main/org/deidentifier/arx/risk/NewtonRaphsonAlgorithm.java
+.../arx/test/{TestUtilityMetricsAbstract.java => AbstractTestUtilityMetrics.java
+src/main/org/deidentifier/arx/framework/check/transformer/TransformerAll.java
+src/main/org/deidentifier/arx/criteria/DPresence.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer13.java
+src/main/org/deidentifier/arx/risk/ZayatzModel.java
+src/test/org/deidentifier/arx/test/AbstractAnonymizationTest.java
+src/main/org/deidentifier/arx/aggregates/StatisticsBuilder.java
+src/main/org/deidentifier/arx/risk/resources/HIPAAConstants.java
+src/main/org/deidentifier/arx/risk/RiskModelSampleBasedReidentificationRisk.java
+src/main/org/deidentifier/arx/risk/PopulationModel.java
+...r/arx/criteria/{SampleBasedPrivacyCriterion.java => SampleBasedCriterion.java
+src/example/org/deidentifier/arx/examples/Example29.java
+...ntifier/arx/test/TestDataTransformationsFromFileLDiversityWithStatistics.java
+src/main/org/deidentifier/arx/framework/check/history/MRUCache.java
+src/main/org/deidentifier/arx/io/ImportAdapterJDBC.java
+src/main/org/deidentifier/arx/io/importdata/CSVFileImportAdapter.java
+src/main/org/deidentifier/arx/risk/hipaa/Identifier.java
+...heEntry.java => gui/org/deidentifier/arx/gui/view/impl/MainMenuSeparator.java
+src/main/org/deidentifier/arx/criteria/EntropyLDiversity.java
+src/main/org/deidentifier/arx/metric/v2/ILMultiDimensionalArithmeticMean.java
+src/test/org/deidentifier/arx/test/TestDataTransformations.java
+src/example/org/deidentifier/arx/examples/Example22.java
+src/example/org/deidentifier/arx/examples/{Example14.java => Example40.java
+...sources.html => dev/org/deidentifier/arx/metric/v2/class-use/DomainShare.html
+src/test/org/deidentifier/arx/test/TestExamples.java
+...in/org/deidentifier/arx/risk/{NewtonPitman.java => AlgorithmNewtonPitman.java
+src/test/org/deidentifier/arx/test/TestUtilityMetricsAbstract.java
+...g/deidentifier/arx/risk/{PopulationModel.java => AbstractModelPopulation.java
+src/main/org/deidentifier/arx/risk/NewtonPitman.java
+src/example/org/deidentifier/arx/examples/Example12.java
+...ModelPopulationBasedUniquenessRisk.java => RiskModelPopulationUniqueness.java
+...SharePotentiallyPrecomputed.html => MetricMDNMLossPotentiallyPrecomputed.html
+...java => main/org/deidentifier/arx/common/ComputationInterruptedException.java
+src/main/org/deidentifier/arx/masking/ShuffleMasker.java
+src/main/org/deidentifier/arx/framework/check/INodeChecker.java
+src/main/org/deidentifier/arx/framework/check/transformer/package-info.java
+src/example/org/deidentifier/arx/examples/{Example19.java => Example35.java
+src/example/org/deidentifier/arx/examples/Example1.java
+src/main/org/deidentifier/arx/masking/RandomShiftDecimalMasker.java
+src/example/org/deidentifier/arx/examples/package-info.java
+src/main/org/deidentifier/arx/DataGeneralizationScheme.java
+src/main/org/deidentifier/arx/criteria/RiskBasedCriterion.java
+src/main/org/deidentifier/arx/criteria/SampleBasedPrivacyCriterion.java
+src/main/org/deidentifier/arx/masking/AbstractMaskingOperator.java
+doc/dev/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
+...html => gui/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
+src/main/org/deidentifier/arx/risk/AlgorithmNewtonRaphson.java
+src/main/org/deidentifier/arx/package-info.java
+doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
+src/main/org/deidentifier/arx/metric/InformationLossWithBound.java
+src/main/org/deidentifier/arx/risk/hipaa/EMailPattern.java
+...ataTransformationsFromFileLDiversity.java => TestAnonymizationLDiversity.java
+src/main/org/deidentifier/arx/risk/ModelPitman.java
+...yPrecomputed.java => MetricMDNUNMNormalizedEntropyPotentiallyPrecomputed.java
+...ifier/arx/criteria/{RiskBasedPrivacyCriterion.java => RiskBasedCriterion.java
+...ransformationsFromFileCombinations.java => TestAnonymizationCombinations.java
+src/main/org/deidentifier/arx/metric/MetricPrecisionWeighted.java
+...main/org/deidentifier/arx/aggregates/MicroaggregationFunctionDescription.java
+src/main/org/deidentifier/arx/RowSet.java
+src/main/org/deidentifier/arx/risk/hipaa/MatcherConfig.java
+src/example/org/deidentifier/arx/examples/Example13.java
+...ier/arx/metric/{MetricDefault.java => v2/AbstractMetricSingleDimensional.java
+src/main/org/deidentifier/arx/framework/data/DataManagerSubset.java
+src/test/org/deidentifier/arx/test/TestSolutionSpaceClassification2.java
+...st/org/deidentifier/arx/test/TestDataTransformationsFromFileCombinations.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDHeight.java
+.../org/deidentifier/arx/test/{TestMetricNDS.java => TestUtilityMetricsLoss.java
+...citCriterion.html => metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
+src/main/org/deidentifier/arx/risk/ModelZayatz.java
+src/main/org/deidentifier/arx/framework/data/GeneralizationHierarchy.java
+src/main/org/deidentifier/arx/framework/check/distribution/package-info.java
+src/main/org/deidentifier/arx/risk/hipaa/Attribute.java
+src/test/org/deidentifier/arx/test/TestAnonymizationCombinations.java
+src/main/org/deidentifier/arx/io/ImportAdapter.java
+... => dev/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
+src/main/org/deidentifier/arx/metric/v2/DomainShareMaterialized.java
+src/main/org/deidentifier/arx/aggregates/StatisticsBuilderInterruptible.java
+...SWTUtil.html => api/org/deidentifier/arx/metric/v2/class-use/DomainShare.html
+...eidentifier/arx/{criteria/TCloseness.java => metric/v2/MetricMDNUEntropy.java
+...r/arx/criteria/{RiskBasedThresholdSampleUniques.java => SampleUniqueness.java
+doc/dev/org/deidentifier/arx/metric/v2/DomainShare.html
+src/example/org/deidentifier/arx/examples/Example3.java
+src/main/org/deidentifier/arx/risk/ModelSNB.java
+...r/arx/io/importdata/{CSVFileImportAdapter.java => ExcelFileImportAdapter.java
+doc/gui/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
+src/main/org/deidentifier/arx/hierarchy/AggregateFunction.java
+doc/gui/org/deidentifier/arx/metric/v2/DomainShareInterval.html
+src/main/org/deidentifier/arx/metric/v2/ILMultiDimensionalMax.java
+src/main/org/deidentifier/arx/common/TupleWrapper.java
+...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/main/org/deidentifier/arx/masking/AbstractDictionaryMaskingString.java
+doc/dev/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
+src/main/org/deidentifier/arx/io/ExcelFileConfiguration.java
+src/main/org/deidentifier/arx/framework/lattice/NodeTrigger.java
+src/main/org/deidentifier/arx/metric/MetricAECS.java
+src/example/org/deidentifier/arx/examples/{Example33.java => Example34.java
+src/main/org/deidentifier/arx/io/importdata/CSVConfiguration.java
+src/example/org/deidentifier/arx/examples/{Example22.java => Example23.java
+src/main/org/deidentifier/arx/metric/v2/ILMultiDimensionalSum.java
+...arx/metric/v2/{MetricMDNUNMEntropy.java => MetricMDNUNMNormalizedEntropy.java
+src/example/org/deidentifier/arx/examples/{Example7.java => Example15.java
+.../arx/risk/{NewtonRaphsonAlgorithm.java => AbstractAlgorithmNewtonRaphson.java
+...ain/org/deidentifier/arx/framework/check/transformer/AbstractTransformer.java
+src/main/org/deidentifier/arx/masking/AbstractDictionaryMasking.java
+...ntifier/arx/test/TestDataTransformationsFromFileKAnonymityWithStatistics.java
+src/main/org/deidentifier/arx/criteria/ImplicitPrivacyCriterion.java
+src/main/org/deidentifier/arx/risk/AbstractModelUniqueness.java
+src/example/org/deidentifier/arx/examples/Example2d.java
+src/example/org/deidentifier/arx/examples/Example17.java
+src/test/org/deidentifier/arx/test/TestUtilityEstimationAbstract.java
+src/main/org/deidentifier/arx/framework/check/package-info.java
+...rx/test/{TestAnonymizationKAnonymity.java => TestExecutionTimeKAnonymity.java
+...leConfiguration.java => main/org/deidentifier/arx/risk/hipaa/IBANPattern.java
+data/test.sql
+src/main/org/deidentifier/arx/metric/InformationLossDefaultWithBound.java
+...iteria/{RiskBasedThresholdPopulationUniques.java => PopulationUniqueness.java
+src/example/org/deidentifier/arx/examples/{Example37.java => Example38.java
+src/main/org/deidentifier/arx/io/DataSourceConfiguration.java
+doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
+...ew/def/IView.java => main/org/deidentifier/arx/risk/RiskModelSampleBased.java
+src/main/org/deidentifier/arx/metric/MetricDMStar.java
+src/main/org/deidentifier/arx/io/{importdata => }/Column.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer11.java
+src/test/org/deidentifier/arx/test/TestSolutionSpaceClassification.java
+src/example/org/deidentifier/arx/examples/Example15.java
+...n/org/deidentifier/arx/framework/lattice/{NodeTrigger.java => NodeAction.java
+...onsFromFileLDiversityWithStatistics.java => TestClassificationLDiversity.java
+.../org/deidentifier/arx/risk/{RiskModelSampleBased.java => RiskModelSample.java
+src/main/org/deidentifier/arx/framework/check/groupify/HashTableUtil.java
+doc/api/org/deidentifier/arx/metric/v2/class-use/{DomainShare.html => IO.html
+...view/def/IDialog.java => main/org/deidentifier/arx/risk/hipaa/URLPattern.java
+...CTDataProvider.java => main/org/deidentifier/arx/risk/hipaa/EMailPattern.java
+src/main/org/deidentifier/arx/risk/{DisclosureRisk.java => RiskEstimator.java
+...main/org/deidentifier/arx/risk/{hipaa/Match.java => HIPAAIdentifierMatch.java
+...arx/io/datasource/{IDataSourceCanContainHeader.java => ICanContainHeader.java
+...ntifier/arx/io/datasource/{DataSourceConfiguration.java => Configuration.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorPermute.java
+src/test/org/deidentifier/arx/test/DataProvider.java
+src/main/org/deidentifier/arx/risk/ModelEquivalenceClass.java
+src/example/org/deidentifier/arx/examples/Example6.java
+src/main/org/deidentifier/arx/metric/MetricStatic.java
+src/main/org/deidentifier/arx/risk/hipaa/NamePattern.java
+...main/org/deidentifier/arx/criteria/{DistinctLDiversity.java => Enclosure.java
+src/main/org/deidentifier/arx/risk/HIPAAConstants.java
+...ain/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyOriginalNormalized.java
+.../def/IView.java => main/org/deidentifier/arx/aggregates/HierarchyBuilder.java
+src/test/org/deidentifier/arx/test/TestDataTransformationsFromFileAbstract.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer09.java
+src/main/org/deidentifier/arx/{ARXListener.java => io/datasource/CSVColumn.java
+src/main/org/deidentifier/arx/metric/BoundInformationLossDefault.java
+src/main/org/deidentifier/arx/metric/MetricDescription.java
+src/main/org/deidentifier/arx/io/importdata/CSVFileConfiguration.java
+src/test/org/deidentifier/arx/test/TestAnonymizationDPresence.java
+src/main/org/deidentifier/arx/framework/CompressedBitSet.java
+...citCriterion.java => main/org/deidentifier/arx/io/datasource/ExcelColumn.java
+doc/gui/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.html
+src/main/org/deidentifier/arx/io/datasource/column/ExcelColumn.java
+src/main/org/deidentifier/arx/aggregates/StatisticsFrequencyDistribution.java
+src/main/org/deidentifier/arx/ARXAnonymizer.java
+src/main/org/deidentifier/arx/criteria/DDisclosurePrivacy.java
+src/main/org/deidentifier/arx/io/ImportColumnJDBC.java
+... => gui/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
+...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/main/org/deidentifier/arx/risk/hipaa/StringPattern.java
+...sPrecomputationAbstract.java => AbstractTestUtilityMetricsPrecomputation.java
+src/example/org/deidentifier/arx/examples/{Example2b.java => Example2c.java
+src/main/org/deidentifier/arx/framework/check/distribution/Distribution.java
+src/main/org/deidentifier/arx/DataHandleInput.java
+...ifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
+doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShare.html
+src/main/org/deidentifier/arx/framework/lattice/NodeTriggerInverse.java
+src/main/org/deidentifier/arx/risk/{SNBModel.java => ModelSNB.java
+src/main/org/deidentifier/arx/io/datasource/JdbcConfiguration.java
+src/main/org/deidentifier/arx/algorithm/package-info.java
+doc/dev/org/deidentifier/arx/metric/v2/DomainShareInterval.html
+src/main/org/deidentifier/arx/io/ImportConfigurationJDBC.java
+...main/org/deidentifier/arx/metric/v2/MetricMDNMLossPotentiallyPrecomputed.java
+src/main/org/deidentifier/arx/risk/hipaa/IBANPattern.java
+src/test/org/deidentifier/arx/test/TestUtilityMetricsLoss.java
+src/example/org/deidentifier/arx/examples/{Example2a.java => Example2b.java
+src/main/org/deidentifier/arx/framework/data/Dictionary.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer02.java
+src/main/org/deidentifier/arx/algorithm/THUNDERAlgorithm.java
+src/main/org/deidentifier/arx/criteria/Inclusion.java
+src/example/org/deidentifier/arx/examples/{Example31.java => Example35.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer15.java
+src/main/org/deidentifier/arx/{io => risk}/package-info.java
+src/example/org/deidentifier/arx/examples/Example24.java
+...ataTransformationsFromFileKAnonymity.java => TestAnonymizationKAnonymity.java
+...ric/{BoundInformationLossDefault.java => InformationLossDefaultWithBound.java
+...main/org/deidentifier/arx/metric/{MetricStatic.java => v2/MetricMDStatic.java
+...ifier/arx/metric/v2/AbstractMetricMultiDimensionalPotentiallyPrecomputed.java
+src/example/org/deidentifier/arx/examples/{Example8.java => Example22.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorRandomShiftDate.java
+...rg/deidentifier/arx/framework/{BitSetCompressed.java => CompressedBitSet.java
+src/example/org/deidentifier/arx/examples/Example42.java
+src/main/org/deidentifier/arx/io/datasource/ICanContainHeader.java
+...ain/org/deidentifier/arx/framework/check/distribution/IntArrayDictionary.java
+...er/arx/test/{TestExecutionTimeAbstract.java => AbstractTestExecutionTime.java
+src/test/org/deidentifier/arx/test/TestClassificationKAnonymity.java
+src/main/org/deidentifier/arx/risk/RiskModelPopulation.java
+src/main/org/deidentifier/arx/algorithm/FLASHNodeTrigger.java
+src/main/org/deidentifier/arx/risk/hipaa/{Label.java => HeaderMatcher.java
+src/main/org/deidentifier/arx/masking/AbstractDictionaryMaskingDate.java
+...ifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/main/org/deidentifier/arx/algorithm/AbstractFLASHAlgorithm.java
+...tifier/arx/metric/v2/class-use/{DomainShare.html => DomainShareRedaction.html
+doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
+...eBuilder.java => main/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropy.java
+...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.java
+src/test/org/deidentifier/arx/test/{TestAnonymizer.java => AbstractTest.java
+...der.java => main/org/deidentifier/arx/metric/BoundInformationLossDefault.java
+src/main/org/deidentifier/arx/io/importdata/ImportAdapter.java
+data/{adult.csv => example.csv
+src/main/org/deidentifier/arx/metric/{MetricDM.java => MetricAECS.java
+src/main/org/deidentifier/arx/metric/InformationLoss.java
+src/main/org/deidentifier/arx/aggregates/HierarchyBuilderGroupingBased.java
+doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShare.html
+src/test/org/deidentifier/arx/test/TestMetricNDS.java
+src/main/org/deidentifier/arx/masking/ReplaceInstMasker.java
+.../deidentifier/arx/metric/{MetricUserDefinedWeighted.java => MetricStatic.java
+src/main/org/deidentifier/arx/io/ImportColumn.java
+...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/main/org/deidentifier/arx/risk/resources/states.csv
+src/main/org/deidentifier/arx/metric/v2/MetricMDNMPrecision.java
+src/main/org/deidentifier/arx/risk/resources/us/HIPAAConstantsUS.java
+src/main/org/deidentifier/arx/io/DataSourceFileConfiguration.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorRandomValuesString.java
+...ifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/main/org/deidentifier/arx/framework/data/Data.java
+src/main/org/deidentifier/arx/metric/MetricDefault.java
+src/main/org/deidentifier/arx/risk/hipaa/VINPattern.java
+src/main/org/deidentifier/arx/{ARXLatticeEstimator.java => UtilityEstimator.java
+src/main/org/deidentifier/arx/metric/v2/AbstractILMultiDimensional.java
+...fier/arx/metric/v2/class-use/{DomainShare.html => ILMultiDimensionalRank.html
+src/main/org/deidentifier/arx/ARXLattice.java
+src/test/org/deidentifier/arx/test/AbstractTestExecutionTime.java
+src/main/org/deidentifier/arx/io/importdata/FileConfiguration.java
+src/test/org/deidentifier/arx/test/TestMetricNDSV2.java
+...arx/io/datasource/{DataSourceFileConfiguration.java => FileConfiguration.java
+src/main/org/deidentifier/arx/framework/lattice/DependentAction.java
+...org/deidentifier/arx/metric/v2/{DomainShare.html => DomainShareRedaction.html
+src/main/org/deidentifier/arx/framework/check/Transformer.java
+src/main/org/deidentifier/arx/risk/hipaa/{ValuePattern.java => Classifier.java
+doc/dev/org/deidentifier/arx/metric/v2/DomainShareRedaction.html
+src/main/org/deidentifier/arx/metric/v2/DomainShare.java
+doc/api/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
+src/main/org/deidentifier/arx/risk/{ZayatzModel.java => ModelZayatz.java
+src/main/org/deidentifier/arx/criteria/SampleBasedCriterion.java
+src/main/org/deidentifier/arx/masking/IDictionaryMasker.java
+src/main/org/deidentifier/arx/risk/RiskModelHIPAASafeHarbor.java
+src/main/org/deidentifier/arx/io/datasource/IDataSourceCanContainHeader.java
+src/main/org/deidentifier/arx/risk/RiskModelSampleRisks.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyOriginal.java
+src/main/org/deidentifier/arx/io/datasource/CSVFileConfiguration.java
+src/main/org/deidentifier/arx/framework/lattice/NodeAction.java
+...sk/{RiskModelSampleBasedUniquenessRisk.java => RiskModelSampleUniqueness.java
+src/main/org/deidentifier/arx/criteria/Enclosure.java
+...r/arx/metric/v2/{MetricMDNMPrecision.java => MetricMDNUNMEntropyOriginal.java
+src/main/org/deidentifier/arx/io/CSVFileConfiguration.java
+.../metric/v2/{MetricMDHeight.java => MetricMDNUNMEntropyOriginalNormalized.java
+src/main/org/deidentifier/arx/criteria/LDiversity.java
+src/main/org/deidentifier/arx/io/{importdata => }/ImportAdapter.java
+...onsFromFileTClosenessWithStatistics.java => TestClassificationTCloseness.java
+src/main/org/deidentifier/arx/io/CSVDataInput.java
+src/main/org/deidentifier/arx/framework/lattice/LatticeBuilder.java
+doc/gui/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
+src/main/org/deidentifier/arx/criteria/RiskBasedThresholdAverageRisk.java
+...er/arx/algorithm/{FLASHAlgorithmTwoPhase.java => FLASHAlgorithmTwoPhases.java
+src/main/org/deidentifier/arx/framework/check/groupify/HashGroupifyEntry.java
+...ntervalHierarchyBuilder.java => aggregates/HierarchyBuilderIntervalBased.java
+src/example/org/deidentifier/arx/examples/{Example13.java => Example14.java
+...test/org/deidentifier/arx/test/TestDataTransformationsFromFileKAnonymity.java
+src/main/org/deidentifier/arx/masking/AbstractDictionaryMaskingDecimal.java
+src/main/org/deidentifier/arx/risk/hipaa/ValuePattern.java
+...Share.html => dev/org/deidentifier/arx/metric/v2/DomainShareMaterialized.html
+src/main/org/deidentifier/arx/algorithm/LIGHTNINGAlgorithm.java
+src/example/org/deidentifier/arx/examples/Example8.java
+...in/org/deidentifier/arx/{DataHandleStatistics.java => DataHandleInternal.java
+...ainShare.html => dev/org/deidentifier/arx/metric/v2/DomainShareRedaction.html
+src/main/org/deidentifier/arx/metric/InformationLossCombined.java
+src/main/org/deidentifier/arx/aggregates/HierarchyBuilderIntervalBased.java
+src/main/org/deidentifier/arx/metric/package-info.java
+src/example/org/deidentifier/arx/examples/{Example22.java => Example39.java
+src/main/org/deidentifier/arx/io/CSVSyntax.java
+src/main/org/deidentifier/arx/io/CSVUtil.java
+src/main/org/deidentifier/arx/io/datasource/DataSourceConfiguration.java
+src/main/org/deidentifier/arx/masking/AbstractInstanceMaskingString.java
+...er/arx/io/{datasource/column/IIndexedColumn.java => IImportColumnIndexed.java
+src/main/org/deidentifier/arx/criteria/AverageReidentificationRisk.java
+src/main/org/deidentifier/arx/risk/NewtonSNB.java
+src/main/org/deidentifier/arx/io/IImportColumnIndexed.java
+src/example/org/deidentifier/arx/examples/{Example31.java => Example36.java
+src/example/org/deidentifier/arx/examples/{Example32.java => Example33.java
+src/main/org/deidentifier/arx/io/datasource/column/CSVColumn.java
+src/main/org/deidentifier/arx/metric/v2/Cardinalities.java
+src/main/org/deidentifier/arx/framework/check/history/MRUCacheEntryMetadata.java
+...fier/arx/{framework/lattice/LatticeBuilder.html => metric/v2/DomainShare.html
+src/example/org/deidentifier/arx/examples/Example5.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmIterative.java
+src/main/org/deidentifier/arx/masking/ConstantShiftDecimalMasker.java
+...ain/org/deidentifier/arx/io/{importdata => }/DataSourceFileConfiguration.java
+src/main/org/deidentifier/arx/risk/RiskEstimateBuilder.java
+src/main/org/deidentifier/arx/io/{CSVConfig.java => CSVSyntax.java
+src/main/org/deidentifier/arx/masking/SplitAndReplaceStringMasker.java
+src/example/org/deidentifier/arx/examples/Example30.java
+src/test/org/deidentifier/arx/test/TestAnonymizationTCloseness.java
+src/main/org/deidentifier/arx/DataScale.java
+...html => dev/org/deidentifier/arx/metric/v2/class-use/DomainShareInterval.html
+src/main/org/deidentifier/arx/DataHandleStatistics.java
+src/main/org/deidentifier/arx/metric/MetricPrecisionRCE.java
+doc/api/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.html
+src/test/org/deidentifier/arx/test/TestClassificationTCloseness.java
+src/main/org/deidentifier/arx/criteria/ExplicitPrivacyCriterion.java
+...tifier/arx/metric/{InformationLossDefault.java => v2/ILSingleDimensional.java
+src/main/org/deidentifier/arx/framework/check/StateMachine.java
+src/main/org/deidentifier/arx/criteria/PopulationUniqueness.java
+src/main/org/deidentifier/arx/{framework/lattice => criteria}/package-info.java
+...ntifier/arx/io/importdata/{CSVConfiguration.java => CSVFileConfiguration.java
+src/main/org/deidentifier/arx/risk/RiskModelPopulationUniqueness.java
+...identifier/arx/test/{TestMetrics.java => TestSolutionSpaceClassification.java
+...n/org/deidentifier/arx/metric/{MetricPrecision.java => MetricNMPrecision.java
+...org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyPotentiallyPrecomputed.java
+...org/deidentifier/arx/metric/v2/class-use/{DomainShare.html => __MetricV2.html
+src/main/org/deidentifier/arx/io/importdata/DataSourceImportAdapter.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer04.java
+src/main/org/deidentifier/arx/common/Groupify.java
+...romFileCombinationsWithStatistics.java => TestClassificationCombinations.java
+...va => gui/org/deidentifier/arx/gui/view/impl/common/table/CTDataProvider.java
+...tifier/arx/io/{datasource/column/IndexColumn.java => ImportColumnIndexed.java
+src/example/org/deidentifier/arx/examples/{Example24.java => Example25.java
+src/main/org/deidentifier/arx/risk/hipaa/Category.java
+...ataTransformationsFromFileTCloseness.java => TestAnonymizationTCloseness.java
+src/main/org/deidentifier/arx/exceptions/package-info.java
+src/main/org/deidentifier/arx/algorithm/FLASHPhaseConfiguration.java
+src/main/org/deidentifier/arx/io/importdata/CSVImportAdapter.java
+src/main/org/deidentifier/arx/exceptions/RollbackRequiredException.java
+src/test/org/deidentifier/arx/test/TestUtilityMetrics.java
+src/main/org/deidentifier/arx/masking/ConstantShiftDateMasker.java
+...g/deidentifier/arx/risk/{UniquenessModel.java => AbstractModelUniqueness.java
+...rg/deidentifier/arx/framework/check/distribution/IntArrayDictionaryEntry.java
+src/example/org/deidentifier/arx/examples/Example11.java
+src/main/org/deidentifier/arx/criteria/KMap.java
+src/main/org/deidentifier/arx/risk/AlgorithmNewtonPitman.java
+.../org/deidentifier/arx/metric/{MetricPrecision.java => MetricPrecisionRCE.java
+src/main/org/deidentifier/arx/risk/EquivalenceClassModel.java
+src/main/org/deidentifier/arx/metric/v2/TupleMatcher.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmBinary.java
+src/main/org/deidentifier/arx/io/IImportConfigurationWithHeader.java
+src/main/org/deidentifier/arx/framework/check/history/package-info.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer01.java
+src/main/org/deidentifier/arx/io/ImportAdapterCSV.java
+src/example/org/deidentifier/arx/examples/Example2a.java
+src/main/org/deidentifier/arx/risk/RiskModelSampleUniqueness.java
+....java => gui/org/deidentifier/arx/gui/view/impl/common/table/CTComponent.java
+src/main/org/deidentifier/arx/io/JdbcConfiguration.java
+...SharePotentiallyPrecomputed.java => MetricMDNMLossPotentiallyPrecomputed.java
+doc/api/org/deidentifier/arx/metric/v2/DomainShare.html
+src/main/org/deidentifier/arx/metric/v2/Metric_V2.java
+src/example/org/deidentifier/arx/examples/{Example2b.java => Example2d.java
+src/main/org/deidentifier/arx/masking/AbstractInstanceMaskingDate.java
+src/main/org/deidentifier/arx/metric/MetricPrecision.java
+...deidentifier/arx/risk/{hipaa/MatcherConfig.java => HIPAAIdentifierConfig.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNUEntropy.java
+...ier/arx/io/{datasource/JdbcConfiguration.java => ImportConfigurationJDBC.java
+src/main/org/deidentifier/arx/exceptions/ComputationInterruptedException.java
+src/main/org/deidentifier/arx/framework/package-info.java
+src/main/org/deidentifier/arx/io/importdata/Column.java
+src/main/org/deidentifier/arx/{risk => common}/Groupify.java
+src/main/org/deidentifier/arx/masking/MatchAndReplaceStringMasker.java
+src/main/org/deidentifier/arx/risk/HIPAAMatcherAttributeName.java
+src/main/org/deidentifier/arx/risk/AlgorithmNewtonSNB.java
+src/main/org/deidentifier/arx/DataHandleOutput.java
+src/example/org/deidentifier/arx/examples/{Example41.java => Example42.java
+src/example/org/deidentifier/arx/examples/{Example9.java => Example11.java
+doc/dev/org/deidentifier/arx/metric/v2/class-use/DomainShareMaterialized.html
+src/main/org/deidentifier/arx/risk/{PitmanModel.java => ModelPitman.java
+src/example/org/deidentifier/arx/examples/{Example1.java => Example44.java
+src/main/org/deidentifier/arx/criteria/RiskBasedThresholdSampleUniques.java
+src/main/org/deidentifier/arx/io/importdata/ExcelFileImportAdapter.java
+src/main/org/deidentifier/arx/risk/hipaa/package-info.java
+src/main/org/deidentifier/arx/risk/hipaa/SafeHarborValidator.java
+...arx/io/importdata/{FileConfiguration.java => DataSourceFileConfiguration.java
+...ntifier/arx/io/{importdata/CSVFileImportAdapter.java => ImportAdapterCSV.java
+src/main/org/deidentifier/arx/io/datasource/column/IndexColumn.java
+...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/main/org/deidentifier/arx/ARXConfiguration.java
+src/example/org/deidentifier/arx/examples/Example9.java
+src/main/org/deidentifier/arx/risk/UniquenessModel.java
+src/main/org/deidentifier/arx/metric/v2/ILSingleDimensionalWithBound.java
+src/test/org/deidentifier/arx/test/TestUtilityEstimation.java
+src/main/org/deidentifier/arx/metric/MetricUserDefinedWeighted.java
+src/main/org/deidentifier/arx/io/ImportAdapterExcel.java
+src/example/org/deidentifier/arx/examples/Example26.java
+...utationInterruptedException.java => exceptions/RollbackRequiredException.java
+src/test/org/deidentifier/arx/test/TestMetrics.java
+...identifier/arx/io/{datasource/column/JdbcColumn.java => ImportColumnJDBC.java
+...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+...org/deidentifier/arx/aggregates/classifiers/MultiClassLogisticRegression.java
+src/main/org/deidentifier/arx/common/WrappedBoolean.java
+src/main/org/deidentifier/arx/masking/GenerateRandomDecimalMasker.java
+src/main/org/deidentifier/arx/io/{importdata => }/CSVFileConfiguration.java
+.../deidentifier/arx/{common => exceptions}/ComputationInterruptedException.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer10.java
+src/main/org/deidentifier/arx/DataSource.java
+src/main/org/deidentifier/arx/risk/RiskModelEquivalenceClasses.java
+src/main/org/deidentifier/arx/metric/MetricEntropy.java
+src/main/org/deidentifier/arx/metric/v2/ILMultiDimensionalWithBound.java
+...ier/arx/io/{datasource/FileConfiguration.java => ImportConfigurationFile.java
+src/main/org/deidentifier/arx/framework/data/DataManager.java
+src/main/org/deidentifier/arx/criteria/PrivacyCriterion.java
+src/main/org/deidentifier/arx/hierarchy/IntervalHierarchyBuilder.java
+src/main/org/deidentifier/arx/ARXLatticeEstimator.java
+src/main/org/deidentifier/arx/DataType.java
+src/example/org/deidentifier/arx/examples/Example43.java
+src/example/org/deidentifier/arx/examples/{Example2.java => Example2a.java
+...est/org/deidentifier/arx/test/{TestMetricsV2.java => TestUtilityMetrics2.java
+...rg/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/main/org/deidentifier/arx/framework/lattice/package-info.java
+src/main/org/deidentifier/arx/aggregates/MicroaggregateFunction.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorSearchAndReplace.java
+...f/IDialog.java => main/org/deidentifier/arx/io/datasource/IIndexedColumn.java
+...yerResetCommand.java => main/org/deidentifier/arx/risk/hipaa/NamePattern.java
+src/test/org/deidentifier/arx/test/TestClassificationCombinations.java
+...x/io/CSVConfig.java => gui/org/deidentifier/arx/gui/model/ModelCSVConfig.java
+src/main/org/deidentifier/arx/{hierarchy => aggregates}/AggregateFunction.java
+doc/dev/org/deidentifier/arx/metric/v2/class-use/DomainShare.html
+src/example/org/deidentifier/arx/examples/Example40.java
+src/main/org/deidentifier/arx/io/datasource/column/INamedColumn.java
+doc/dev/org/deidentifier/arx/metric/v2/class-use/DomainShareRedaction.html
+src/main/org/deidentifier/arx/aggregates/StatisticsEquivalenceClasses.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmTwoPhases.java
+src/example/org/deidentifier/arx/examples/Example10.java
+...tUtilityMetricsAbstract.java => TestUtilityMetricsPrecomputationAbstract.java
+...eidentifier/arx/metric/{MetricNMPrecision.java => v2/MetricMDNMPrecision.java
+...org/deidentifier/arx/metric/{MetricDefault.java => MetricDefaultWeighted.java
+src/main/org/deidentifier/arx/risk/hipaa/SSNPattern.java
+src/main/org/deidentifier/arx/io/package-info.java
+src/main/org/deidentifier/arx/ARXResult.java
+...teria/{RiskBasedThresholdAverageRisk.java => AverageReidentificationRisk.java
+src/main/org/deidentifier/arx/metric/MetricDM.java
+src/main/org/deidentifier/arx/masking/AbstractInstanceMasking.java
+src/main/org/deidentifier/arx/DataStatistics.java
+src/main/org/deidentifier/arx/criteria/{Inclusion.java => KMap.java
+src/main/org/deidentifier/arx/risk/hipaa/Classifier.java
+...identifier/arx/risk/{EquivalenceClassModel.java => ModelEquivalenceClass.java
+...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/example/org/deidentifier/arx/examples/{Example6.java => Example19.java
+...ultiClassLogisticRegression.java => MultiClassAdaptiveLogisticRegression.java
+src/main/org/deidentifier/arx/hierarchy/OrderedHierarchyBuilder.java
+src/example/org/deidentifier/arx/examples/Example21.java
+src/example/org/deidentifier/arx/examples/Example36.java
+...ce/LatticeBuilder.html => gui/org/deidentifier/arx/metric/v2/DomainShare.html
+src/example/org/deidentifier/arx/examples/Example44.java
+...deidentifier/arx/{metric/MetricHeight.java => algorithm/FLASHNodeTrigger.java
+src/main/org/deidentifier/arx/risk/hipaa/IPPattern.java
+src/main/org/deidentifier/arx/framework/lattice/NodeTriggerConstant.java
+...eidentifier/arx/io/{datasource/Configuration.java => ImportConfiguration.java
+src/main/org/deidentifier/arx/risk/hipaa/DatePattern.java
+src/test/org/deidentifier/arx/test/AbstractTestUtilityMetricsPrecomputation.java
+src/example/org/deidentifier/arx/examples/Example33.java
+src/main/org/deidentifier/arx/io/ImportConfigurationExcel.java
+...fier/arx/metric/v2/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/main/org/deidentifier/arx/criteria/package-info.java
+src/main/org/deidentifier/arx/metric/v2/MetricSDNMKLDivergence.java
+src/main/org/deidentifier/arx/algorithm/FLASHConfiguration.java
+src/main/org/deidentifier/arx/metric/MetricConfiguration.java
+src/example/org/deidentifier/arx/examples/Example25.java
+src/main/org/deidentifier/arx/framework/check/TransformedData.java
+...{InformationLossDefaultWithBound.java => v2/ILSingleDimensionalWithBound.java
+...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
+src/main/org/deidentifier/arx/framework/check/NodeChecker.java
+src/example/org/deidentifier/arx/examples/{Example7.java => Example31.java
+src/main/org/deidentifier/arx/io/datasource/Column.java
+src/main/org/deidentifier/arx/metric/MetricNDS.java
+src/example/org/deidentifier/arx/examples/{Example7.java => Example16.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDStatic.java
+src/main/org/deidentifier/arx/risk/{resources => }/HIPAAConstants.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithmLinear.java
+src/example/org/deidentifier/arx/examples/Example31.java
+...k/{RiskModelSampleBasedReidentificationRisk.java => RiskModelSampleRisks.java
+.../deidentifier/arx/metric/v2/{DomainShare.java => DomainShareMaterialized.java
+...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+...icMDNMNormalizedDomainSharePrecomputed.java => MetricMDNMLossPrecomputed.java
+src/main/org/deidentifier/arx/io/ImportColumnExcel.java
+doc/dev/org/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainShare.html
+...ier/arx/metric/v2/class-use/{DomainShare.html => DomainShareMaterialized.html
+...ntifier/arx/risk/{RiskModelEquivalenceClasses.java => RiskModelHistogram.java
+data/test_dirty.csv
+...ntifier/arx/io/importdata/{DataSourceImportAdapter.java => ImportAdapter.java
+src/main/org/deidentifier/arx/io/CSVDataOutput.java
+src/example/org/deidentifier/arx/examples/Example16.java
+src/main/org/deidentifier/arx/AttributeType.java
+...DNUNMEntropyPrecomputed.java => MetricMDNUNMNormalizedEntropyPrecomputed.java
+src/main/org/deidentifier/arx/DataSelector.java
+src/example/org/deidentifier/arx/examples/{Example2b.java => Example2e.java
+src/main/org/deidentifier/arx/metric/v2/MetricSDAECS.java
+src/main/org/deidentifier/arx/framework/check/groupify/IHashGroupify.java
+...n/org/deidentifier/arx/metric/v2/MetricMDNUEntropyPotentiallyPrecomputed.java
+src/main/org/deidentifier/arx/io/importdata/JdbcImportAdapter.java
+...l.html => metric/v2/class-use/MetricMDNMNormalizedDomainSharePrecomputed.html
+...test/org/deidentifier/arx/test/TestDataTransformationsFromFileTCloseness.java
+src/example/org/deidentifier/arx/examples/{Example1.java => Example27.java
+...tion.java => main/org/deidentifier/arx/aggregates/classifiers/Classifier.java
+src/example/org/deidentifier/arx/examples/Example38.java
+src/main/org/deidentifier/arx/io/IImportColumnNamed.java
+...rg/deidentifier/arx/{DataStatistics.java => aggregates/StatisticsBuilder.java
+src/main/org/deidentifier/arx/criteria/EqualDistanceTCloseness.java
+src/main/org/deidentifier/arx/common/WrappedInteger.java
+...ifier/arx/test/TestDataTransformationsFromFileCombinationsWithStatistics.java
+.../view/def/IDialog.java => main/org/deidentifier/arx/risk/hipaa/IPPattern.java
+src/example/org/deidentifier/arx/examples/Example20.java
+...ava => main/org/deidentifier/arx/risk/RiskModelSampleBasedUniquenessRisk.java
+...org/deidentifier/arx/metric/v2/{DomainShare.html => DomainShareRedaction.html
+src/main/org/deidentifier/arx/aggregates/classifiers/Classifier.java
+...der.java => main/org/deidentifier/arx/risk/resources/us/HIPAAConstantsUS.java
+src/main/org/deidentifier/arx/io/datasource/DataSourceFileConfiguration.java
+...deidentifier/arx/io/{datasource/column/CSVColumn.java => ImportColumnCSV.java
+src/main/org/deidentifier/arx/metric/MetricDefaultWeighted.java
+src/main/org/deidentifier/arx/risk/RiskEstimateBuilderInterruptible.java
+...ier/arx/risk/{hipaa/SafeHarborValidator.java => RiskModelHIPAASafeHarbor.java
+...del/ModelPopulation.java => main/org/deidentifier/arx/ARXPopulationModel.java
+src/test/org/deidentifier/arx/test/TestAnonymizationKAnonymity.java
+src/test/org/deidentifier/arx/test/TestDataImport.java
+...estDataTransformationsFromFileAbstract.java => TestAnonymizationAbstract.java
+src/example/org/deidentifier/arx/examples/Example37.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropy.java
+src/example/org/deidentifier/arx/examples/Example34.java
+src/example/org/deidentifier/arx/examples/Example2.java
+src/main/org/deidentifier/arx/io/CSVAbstractInput.java
+src/main/org/deidentifier/arx/masking/MaskingOperatorRandomValues.java
+...er/arx/metric/v2/{MetricMDNMNormalizedDomainShare.html => MetricMDNMLoss.html
+src/main/org/deidentifier/arx/criteria/{Enclosure.java => Inclusion.java
+src/main/org/deidentifier/arx/DataHandleSubset.java
+src/main/org/deidentifier/arx/criteria/RiskBasedPrivacyCriterion.java
+.../org/deidentifier/arx/metric/v2/MetricMDNUNMNormalizedEntropyPrecomputed.java
+src/main/org/deidentifier/arx/io/datasource/Configuration.java
+src/main/org/deidentifier/arx/algorithm/FLASHAlgorithm.java
+...tifier/arx/io/{datasource/column/INamedColumn.java => IImportColumnNamed.java
+src/main/org/deidentifier/arx/masking/Random.java
+src/main/org/deidentifier/arx/io/datasource/FileConfiguration.java
+src/main/org/deidentifier/arx/metric/v2/AbstractMetricMultiDimensional.java
+...view/def/ILayout.java => main/org/deidentifier/arx/risk/hipaa/SSNPattern.java
+...va => gui/org/deidentifier/arx/gui/view/impl/common/ComponentTableLayout.java
+src/main/org/deidentifier/arx/risk/RiskModelHistogram.java
+...ce/LatticeBuilder.html => api/org/deidentifier/arx/metric/v2/DomainShare.html
+src/main/org/deidentifier/arx/io/CSVConfig.java
+src/main/org/deidentifier/arx/risk/RiskEstimator.java
+src/main/org/deidentifier/arx/aggregates/HierarchyBuilderRedactionBased.java
+src/main/org/deidentifier/arx/risk/ModelPitman2.java
+...view/def/IDialog.java => main/org/deidentifier/arx/common/WrappedBoolean.java
+src/test/org/deidentifier/arx/test/AbstractTestUtilityEstimation.java
+...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
+...hy/OrderedHierarchyBuilder.java => aggregates/HierarchyBuilderOrderBased.java
+src/main/org/deidentifier/arx/risk/Groupify.java
+src/main/org/deidentifier/arx/aggregates/HierarchyBuilder.java
+src/main/org/deidentifier/arx/masking/AbstractInstanceMaskingDecimal.java
+src/main/org/deidentifier/arx/criteria/KAnonymity.java
+...etric/v2/class-use/MetricMDNMNormalizedDomainSharePotentiallyPrecomputed.html
+src/example/org/deidentifier/arx/examples/Example23.java
+src/main/org/deidentifier/arx/metric/v2/MetricSDNMAmbiguity.java
+src/test/org/deidentifier/arx/test/TestIllegalArguments.java
+...ui/resources/class-use/Resources.html => metric/v2/class-use/DomainShare.html
+src/main/org/deidentifier/arx/metric/v2/DomainShareVector.java
+src/main/org/deidentifier/arx/io/datasource/{Column.java => IndexColumn.java
+src/main/org/deidentifier/arx/metric/v2/AbstractMetricSingleDimensional.java
+src/main/org/deidentifier/arx/criteria/HierarchicalDistanceTCloseness.java
+src/test/org/deidentifier/arx/test/TestAnonymizationKMap.java
+src/main/org/deidentifier/arx/io/ImportConfigurationFile.java
+...rResetCommand.java => main/org/deidentifier/arx/risk/hipaa/StringPattern.java
+src/main/org/deidentifier/arx/metric/v2/MetricSDNMDiscernability.java
+...l => dev/org/deidentifier/arx/metric/v2/class-use/ILMultiDimensionalRank.html
+src/main/org/deidentifier/arx/risk/HIPAAIdentifierMatch.java
+doc/api/org/deidentifier/arx/metric/v2/DomainShareInterval.html
+src/main/org/deidentifier/arx/risk/PitmanModel.java
+src/main/org/deidentifier/arx/risk/package-info.java
+...n/org/deidentifier/arx/framework/check/groupify/HashGroupifyDistribution.java
+src/main/org/deidentifier/arx/risk/RiskModelSampleSummary.java
+src/main/org/deidentifier/arx/aggregates/StatisticsSummary.java
+src/main/org/deidentifier/arx/algorithm/FLASHStrategy.java
+src/main/org/deidentifier/arx/DataSubset.java
+.../deidentifier/arx/metric/v2/{DomainShare.html => DomainShareMaterialized.html
+src/main/org/deidentifier/arx/masking/GenerateRandomIntegerDecimalMasker.java
+src/main/org/deidentifier/arx/risk/resources/readme.txt
+src/main/org/deidentifier/arx/Data.java
+src/main/org/deidentifier/arx/masking/GenerateRandomStringMasker.java
+...rg/deidentifier/arx/metric/v2/MetricMDNMNormalizedDomainSharePrecomputed.html
+src/main/org/deidentifier/arx/metric/v2/DomainShareInterval.java
+src/test/org/deidentifier/arx/test/TestUtilityMetrics2.java
+...tifier/arx/metric/{BoundInformationLoss.java => InformationLossWithBound.java
+src/example/org/deidentifier/arx/examples/Example4.java
+src/main/org/deidentifier/arx/framework/lattice/IDGenerator.java
+src/main/org/deidentifier/arx/common/package-info.java
+.../{InformationLossDefaultWithBound.java => v2/ILMultiDimensionalWithBound.java
+src/main/org/deidentifier/arx/io/datasource/{Column.java => JdbcColumn.java
+src/main/org/deidentifier/arx/aggregates/StatisticsClassification.java
+doc/gui/org/deidentifier/arx/metric/v2/DomainShareRedaction.html
+src/main/org/deidentifier/arx/risk/resources/firstnames.csv
+src/main/org/deidentifier/arx/aggregates/package-info.java
+...entifier/arx/risk/{hipaa/ValueMatcher.java => HIPAAMatcherAttributeValue.java
+src/main/org/deidentifier/arx/io/ImportConfigurationCSV.java
+src/main/org/deidentifier/arx/risk/hipaa/HIPAAIdentifiers.java
+src/main/org/deidentifier/arx/risk/RiskModelSampleBased.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDPrecision.java
+src/main/org/deidentifier/arx/framework/lattice/Transformation.java
+...test/org/deidentifier/arx/test/TestDataTransformationsFromFileLDiversity.java
+src/main/org/deidentifier/arx/masking/AbstractInstBasedDictMasker.java
+.../gui/view/impl/MainMenuGroup.java => main/org/deidentifier/arx/DataScale.java
+src/main/org/deidentifier/arx/risk/HIPAAIdentifierConfig.java
+...deidentifier/arx/test/{TestDataTransformations.java => TestAnonymization.java
+...dentifier/arx/framework/check/distribution/DistributionAggregateFunction.java
+src/main/org/deidentifier/arx/metric/{MetricNDS_1.java => MetricNDS_2.java
+src/main/org/deidentifier/arx/metric/v2/MetricMDNUNMEntropyPrecomputed.java
+src/main/org/deidentifier/arx/masking/ReplaceDictMasker.java
+src/main/org/deidentifier/arx/risk/SNBModel.java
+...org/deidentifier/arx/metric/v2/class-use/MetricMDNMNormalizedDomainShare.html
+...er/arx/test/{TestAnonymizationAbstract.java => AbstractAnonymizationTest.java
+src/main/org/deidentifier/arx/io/datasource/ExcelFileConfiguration.java
+src/example/org/deidentifier/arx/examples/Example2e.java
+src/test/org/deidentifier/arx/test/TestBug.java
+src/example/org/deidentifier/arx/examples/Example27.java
+src/main/org/deidentifier/arx/metric/v2/DomainShareRedaction.java
+src/test/org/deidentifier/arx/test/TestMicroaggregation.java
+src/main/org/deidentifier/arx/io/ImportColumnCSV.java
+src/main/org/deidentifier/arx/DataDefinition.java
+...ations.java => TestDataTransformationsFromFileCombinationsWithStatistics.java
+...n/org/deidentifier/arx/io/{datasource/column/Column.java => ImportColumn.java
+...ayerResetCommand.java => main/org/deidentifier/arx/risk/hipaa/VINPattern.java
+src/main/org/deidentifier/arx/risk/HIPAAMatcherAttributeValue.java
+src/main/org/deidentifier/arx/risk/hipaa/{Identifier.java => Category.java
+.../org/deidentifier/arx/aggregates/classifiers/OneVsRestLogisticRegression.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer03.java
+src/main/org/deidentifier/arx/framework/check/transformer/Transformer05.java
+...ntifier/arx/metric/v2/class-use/{DomainShare.html => DomainShareInterval.html
+...onsFromFileKAnonymityWithStatistics.java => TestClassificationKAnonymity.java
+src/main/org/deidentifier/arx/risk/Gamma.java
+src/test/org/deidentifier/arx/test/TestAnonymizationDifferentialPrivacy.java
+src/main/org/deidentifier/arx/risk/resources/cities.csv
+src/main/org/deidentifier/arx/metric/Metric.java
+.../deidentifier/arx/algorithm/{THUNDERAlgorithm.java => LIGHTNINGAlgorithm.java
