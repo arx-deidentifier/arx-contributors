@@ -32,10 +32,6 @@ module GitFame
     def pretty_puts
       extend Hirb::Console
       Hirb.enable({pager: false})
-      puts "\nTotal number of files: #{number_with_delimiter(files)}"
-      puts "Total number of lines: #{number_with_delimiter(loc)}"
-      puts "Total number of commits: #{number_with_delimiter(commits)}\n"
-
       fields = [:name, :loc, :commits, :files, :distribution]
       fields << populate.instance_variable_get("@file_extensions").uniq.sort if @bytype
       table(authors, fields: fields.flatten)
