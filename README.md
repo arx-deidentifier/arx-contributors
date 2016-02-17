@@ -1,5 +1,4 @@
-# arx-contributors
-Git statistics for ARX
+# Git statistics for ARX
 
 [Statistics for ARX Core](https://rawgit.com/arx-deidentifier/arx-contributors/master/statistics-main.html)
 
