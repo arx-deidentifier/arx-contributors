@@ -66,7 +66,7 @@ Java source code.
 ## External libraries
 
 ARX uses several external libraries that can be found in the respective lib-folders. 
-Moreover, the development of ARX has inspired the creation of several additional libraries which are now used by ARX:
+Moreover, the development of ARX has inspired the creation of several additional libraries which are now used by the software:
 
 * [SWT Preferences](https://github.com/prasser/swtpreferences) A preferences dialog for SWT. Created by Fabian Prasser.
 * [SWT Knob](https://github.com/prasser/swtknob) A knob widget for SWT. Created by Fabian Prasser (with contributions from Florian Kohlmayer).
