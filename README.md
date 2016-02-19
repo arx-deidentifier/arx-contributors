@@ -1,4 +1,4 @@
-# Git statistics for ARX
+# Git statistics and contributors for ARX
 
 All statistics start from 2013-05-10, which means that the initial commits with which 
 ARX was moved from Google Code to GitHub are omitted from the statistics.
@@ -58,10 +58,10 @@ Java source code.
 
 ## Further contributions
 
-The website was designed by Florian Kohlmayer and Fabian Prasser
-The development and hosting infrastructure is maintained by Florian Kohlmayer (with help from Fabian Prasser)
-The online content and documentation was written by Fabian Prasser (with help from Florian Kohlmayer)
-The data used for testing and evaluation was collected and prepared by Florian Kohlmayer (with help from Fabian Prasser)
+* The website was designed by Florian Kohlmayer and Fabian Prasser
+* The development and hosting infrastructure is maintained by Florian Kohlmayer (with help from Fabian Prasser)
+* The online content and documentation was written by Fabian Prasser (with help from Florian Kohlmayer)
+* The data used for testing and evaluation was collected and prepared by Florian Kohlmayer (with help from Fabian Prasser)
 
 ## External libraries
 
