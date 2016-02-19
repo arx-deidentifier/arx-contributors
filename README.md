@@ -59,9 +59,9 @@ Java source code.
 ## Further contributions
 
 * The website was designed by Florian Kohlmayer and Fabian Prasser
-* The development and hosting infrastructure is maintained by Florian Kohlmayer (with help from Fabian Prasser)
-* The online content and documentation was written by Fabian Prasser (with help from Florian Kohlmayer)
-* The data used for testing and evaluation was collected and prepared by Florian Kohlmayer (with help from Fabian Prasser)
+* The development and hosting infrastructure is maintained by Florian Kohlmayer (with contributions from Fabian Prasser)
+* The online content and documentation was written by Fabian Prasser (with contributions from Florian Kohlmayer)
+* The data used for testing and evaluation was collected and prepared by Florian Kohlmayer (with contributions from Fabian Prasser and Helmut Spengler)
 
 ## External libraries
 
