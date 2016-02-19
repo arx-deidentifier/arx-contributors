@@ -7,7 +7,7 @@ Moreover, the statistics only cover the development process since this point in 
 The current statistics have been generated on 02/17/2016 and only account for changes to 
 Java source code.
 
-## Overview
+## Git statistics
 
 [Top-5 Contributors to ARX](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-all.html)
 
@@ -19,7 +19,7 @@ Java source code.
 | (4) Igor Vujosevic              |     1      |      69         |     1        |    0.02      |
 | (5) Raffael Bild                |     1      |       9         |    28        |    0.01      |
 
-## Contributions by module
+### Contributions by module
 
 [Top-5 Contributors to ARX'S Privacy Engine](https://rawgit.com/arx-deidentifier/arx-contributors/master/gitinspector-statistics-main.html)
 
