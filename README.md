@@ -55,3 +55,25 @@ Java source code.
 | (2) Florian Kohlmayer            |   27       |   1470          | 1199         |  28.79       |
 | (3) Karol Babioch                |   14       |    184          |  113         |   3.20       |
 | (4) Igor Vujosevic               |    1       |     68          |    0         |   0.73       |
+
+## Further contributions
+
+The website was designed by Florian Kohlmayer and Fabian Prasser
+The development and hosting infrastructure is maintained by Florian Kohlmayer (with help from Fabian Prasser)
+The online content and documentation was written by Fabian Prasser (with help from Florian Kohlmayer)
+The data used for testing and evaluation was collected and prepared by Florian Kohlmayer (with help from Fabian Prasser)
+
+## External libraries
+
+ARX uses several external libraries that can be found in the respective lib-folders. 
+Moreover, the development of ARX has inspired the creation of several additional libraries which are now used by ARX:
+
+* [SWT Preferences](https://github.com/prasser/swtpreferences) A preferences dialog for SWT. Created by Fabian Prasser.
+* [SWT Knob](https://github.com/prasser/swtknob) A knob widget for SWT. Created by Fabian Prasser (with contributions from Florian Kohlmayer).
+* [SWT Browser](https://github.com/prasser/swtbrowser) A browser widget for SWT. Created by Fabian Prasser.
+* [SWT Choices](https://github.com/prasser/swtchoices) A dialog displaying multiple choices for SWT. Created by Fabian Prasser.
+* [JHC](https://github.com/prasser/jhc) A Java library for interactive heat maps. Created by Fabian Prasser.
+* [Newton Raphson](https://github.com/prasser/newtonraphson) A Java implementation of Newton's method. Created by Fabian Prasser (with contributions from Florian Kohlmayer).
+* [JHPL](https://github.com/prasser/jhpl) A collection of data structures used for representing search spaces in ARX. Created by Fabian Prasser (with contributions from Florian Kohlmayer).
+* [Object Selector](https://github.com/prasser/swtchoices) Object selection library for Java. Created by Fabian Prasser (with contributions from Florian Kohlmayer).
+* [Subframe](https://github.com/prasser/subframe) A Java benchmarking library. Created by Fabian Prasser (with contributions from Johanna Eicher, Florian Kohlmayer and Fabian Stahnke).
